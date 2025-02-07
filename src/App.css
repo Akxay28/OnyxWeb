@@ -1,6 +1,6 @@
 /* SECTION ONE  */
 .bg-img {
-    background-image: url('mainImage.jpg');
+    background-image: url('assets/mainImage.jpg');
     background-size: cover;
     background-color: #5b5b5b;
     background-blend-mode: multiply;
