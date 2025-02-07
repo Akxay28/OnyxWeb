@@ -1,0 +1,10 @@
+/* SECTION ONE  */
+.bg-img {
+    background-image: url('mainImage.jpg');
+    background-size: cover;
+    background-color: #5b5b5b;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 95vh;
+}
