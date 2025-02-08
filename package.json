@@ -13,6 +13,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.0.1",
     "framer-motion": "^12.4.1",
+    "gsap": "^3.12.7",
     "motion": "^12.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
