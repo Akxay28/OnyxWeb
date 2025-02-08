@@ -16,8 +16,8 @@
  .buttonContainer {
      position: relative;
      display: flex;
-     justify-content: center !important;
-     align-items: center !important;
+     justify-content: start !important;
+     align-items: start !important;
  }
 
  .button {
