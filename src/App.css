@@ -49,3 +49,12 @@ body {
 .card:hover .card-text li {
     color: #333;
 }
+
+/* Footer  */
+.icon i {
+    transition: all 0.2s ease-in;
+}
+
+.icon i:hover {
+    color: #ffc107;
+}

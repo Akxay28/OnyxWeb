@@ -12,7 +12,7 @@ Aos.init({
 const Header = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg  bg-dark">
+            <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "black" }}>
                 <div className="container-fluid">
                     <NavLink className="navbar-brand text-white" href="#" data-aos="fade-down">Navbar</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
