@@ -1,6 +1,7 @@
 import React from 'react';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import Button2 from '../Components/Button2/Button2';
 
 AOS.init({
     duration: 1000, // Animation duration
@@ -10,7 +11,7 @@ AOS.init({
 const Section1 = () => {
     return (
         <>
-            <section className="mb-5">
+            {/* <section className="mb-5">
                 <div className="container-fluid bg-img mb-5">
                     <div className="row py-5">
                         <div className="col-12 py-5 mt-5" data-aos="fade-up">
@@ -66,6 +67,25 @@ const Section1 = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section> */}
+
+            <section>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 py-4 mt-lg-4 mt-0" data-aos="fade-up">
+                            <h1 className="display-3 py-4 fw-bold text-capitalize mt-0 mt-lg-4 mb-4">
+                                Expertise in IT Training, Consulting, and Employment Placement."
+                            </h1>
+                            <p className='mt-2'>
+                                Our mission is to empower individuals and organizations through expert IT training, strategic consulting, and seamless employment placement services. We help businesses enhance their workforce and guide professionals toward meaningful career opportunities in the digital world.
+                            </p>
+                            <div className=" buttonContainer d-flex justify-content-center align-items-center  mt-5 ms-0 ps-0">
+                                <Button2 value={"Forward Your Resume"} className="ms-0 ps-0" />
+                            </div>
+                        </div>
+                        <div className="col-lg-6 py-5 border mt-5 mb-5  bg-img rounded shadow" data-aos="fade-up"></div>
                     </div>
                 </div>
             </section>

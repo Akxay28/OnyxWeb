@@ -1,10 +1,50 @@
 /* SECTION ONE  */
+body {
+    font-family: "Orbitron", serif;
+}
+
 .bg-img {
     background-image: url('assets/mainImage.jpg');
     background-size: cover;
     background-color: #5b5b5b;
-    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 95vh;
+    z-index: -1;
+}
+
+/* Hover Effects for Cards */
+.card {
+    transition: all 0.3s ease;
+    transform: translateZ(0);
+    box-sizing: border-box;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card-body {
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover .card-body {
+    box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+    transition: color 0.3s ease;
+}
+
+.card:hover .card-title {
+    color: #28a745;
+}
+
+.card-text li {
+    transition: color 0.3s ease;
+}
+
+.card:hover .card-text li {
+    color: #333;
 }
