@@ -82,7 +82,7 @@ nav {
 /* Text Shadow  */
 
 .text-shadow {
-    text-shadow: 2px 2px 4px #00000099;
+    text-shadow: -15px 15px 4px #00000099;
     color: white;
     font-weight: bolder;
 
