@@ -102,9 +102,16 @@ const Section1 = () => {
                                 <Button2 value={"Forward Your Resume"} className="ms-0 ps-0" />
                             </div>
                         </div>
-                        <div className="col-lg-6 py-5 border mt-5 mb-5  bg-img rounded shadow"
-                            data-aos="flip-down" data-aos-delay="800"
-                        ></div>
+                        <div className="col-lg-6 py-5  mt-5 mb-5 bg-img  ">
+                            <div className="container-fluid bg-img">
+                                <div className="row">
+                                    <div className="col-lg-12 py-4 text-center shadow rounded">
+                                        <img src="mainImage.jpg" width={"100%"} alt="" className="img-fluid" />
+                                        <p className='fw-bold fs-3'> Onyx IT Solutions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section >

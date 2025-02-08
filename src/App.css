@@ -4,9 +4,9 @@ nav {
 }
 
 .bg-img {
-    background-image: url('assets/mainImage.jpg');
+    /* background-image: url('assets/mainImage.jpg'); */
     background-size: cover;
-    background-color: #5b5b5b;
+    /* background-color: #5b5b5b; */
     background-repeat: no-repeat;
     background-position: center center;
     z-index: -1;

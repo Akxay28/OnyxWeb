@@ -3,7 +3,7 @@ import React from 'react'
 const Section2 = () => {
     return (
         <>
-            <div className="container mt-0 mt-lg-5 py-0 py-lg-5">
+            <div className="container mt-0 mt-lg-4 py-0 py-lg-4">
                 <div className="cursor"></div>
                 <div className="row  mt-0 mt-lg-5 py-0 py-lg-5">
                     <h2 className='fw-bold display-4 mb-5' data-aos="fade-up" data-aos-delay="100">Building Expertise for the Future of IT</h2>
