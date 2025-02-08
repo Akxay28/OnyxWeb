@@ -4,8 +4,8 @@ const Section2 = () => {
     return (
         <>
             <div className="container mt-0 mt-lg-5 py-0 py-lg-5">
-                {/* <h2>Empowering IT Excellence: Training, Services, and Career Pathways</h2> */}
                 <div className="row  mt-0 mt-lg-5 py-0 py-lg-5">
+                    <h2 className='fw-bold display-4 mb-5' data-aos="fade-up" data-aos-delay="100">Building Expertise for the Future of IT</h2>
                     <div className="col-lg-4 mt-5 mt-sm-0" data-aos="fade-up">
                         <div className="card shadow-lg hover-card">
                             <div className="card-body">

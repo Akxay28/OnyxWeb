@@ -2,6 +2,7 @@ import React from 'react';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import Button2 from '../Components/Button2/Button2';
+import DecryptedText from '../ReactBits/DecryptedText/DecryptedText ';
 
 AOS.init({
     duration: 1000, // Animation duration
@@ -75,9 +76,25 @@ const Section1 = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 py-4 mt-lg-4 mt-0" data-aos="fade-up">
-                            <h1 className="display-3 py-4 fw-bold text-capitalize mt-0 mt-lg-4 mb-4">
+                            {/* <h1 className="display-3 py-4 fw-bold text-capitalize mt-0 mt-lg-4 mb-4">
                                 Expertise in IT Training, Consulting, and Employment Placement."
-                            </h1>
+                            </h1> */}
+                            <div style={{
+                                marginTop: '4rem', transform: "translateZ(0)",
+                                boxSizing: "border-box"
+                            }} className='display-3 py-4 fw-bold text-capitalize mt-0 mt-lg-4 mb-4'>
+                                <DecryptedText
+                                    text="Expertise in IT Training, Consulting, and Employment Placement."
+                                    animateOn="view"
+                                    revealDirection="start"
+                                    speed={100}
+                                    maxIterations={15}
+                                    characters="ABCD1234!?"
+                                    className="revealed "
+                                    parentClassName="all-letters"
+                                    encryptedClassName="encrypted"
+                                />
+                            </div>
                             <p className='mt-2'>
                                 Our mission is to empower individuals and organizations through expert IT training, strategic consulting, and seamless employment placement services. We help businesses enhance their workforce and guide professionals toward meaningful career opportunities in the digital world.
                             </p>
@@ -85,10 +102,12 @@ const Section1 = () => {
                                 <Button2 value={"Forward Your Resume"} className="ms-0 ps-0" />
                             </div>
                         </div>
-                        <div className="col-lg-6 py-5 border mt-5 mb-5  bg-img rounded shadow" data-aos="fade-up"></div>
+                        <div className="col-lg-6 py-5 border mt-5 mb-5  bg-img rounded shadow"
+                            data-aos="flip-down" data-aos-delay="800"
+                        ></div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             <script>
                 AOS.init();

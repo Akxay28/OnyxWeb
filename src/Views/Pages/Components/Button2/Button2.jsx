@@ -4,7 +4,7 @@ import "./Button2.css"
 const Button2 = ({ value }) => {
     return (
         <>
-            <div class=" buttonContainer">
+            <div class=" buttonContainer" data-aos="zoom-out-right" data-aos-delay="1200">
                 <a href="#" class="button type--C">
                     <div class="button__line"></div>
                     <div class="button__line"></div>
