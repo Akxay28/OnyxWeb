@@ -13,8 +13,8 @@ const Section3 = () => {
     return (
         <>
             <div className="container">
-                <h2 className='fw-bold display-4 mb-5' data-aos="fade-up">What makes us different from others in the Industry</h2>
-                <p className='fs-3' data-aos="fade-up" data-aos-delay="200">Client-Centric Project Development and Delivery Process: Ensuring Seamless Collaboration and Quality Results</p>
+                <h2 className='fw-bold display-4 mb-5' data-aos="fade-up">What separates us from other companies in the sector ?</h2>
+                <p className='fs-3' data-aos="fade-up" data-aos-delay="200">Our Team Main Aim Is To Provide Client-Centric Project Development and Delivery Processa &  Ensuring Seamless Collaboration and Quality Results</p>
                 <div className="row">
                     <div className="col-lg-12">
                         <div class='gallery'>
