@@ -18,47 +18,57 @@ const Section4 = () => {
                         Finance, Insurance, Healthcare, Retail/Supply Chain, E-commerce, Telecom, and more.
                     </p>
                     <p className="mt-4 para">Here Are The Features Of Our Courses At Onyx IT Path Solutions :</p>
-                    <div className="row" data-aos="fade-up" data-aos-delay="400">
-                        <div className="feature-container p-3 mt-2 rounded rounded-3 col-md-6">
-                            <div className="feature-box shadow p-3 mt-2 rounded h-100" data-aos="fade-up" data-aos-delay="500">
-                                <h5>Industry Expert Instructors</h5>
-                                <p className="paragraph">
-                                    We believe that learning from seasoned industry professionals is the key to mastering new
-                                    skills and advancing your career.
-                                </p>
+                    <div className="row" >
+                        <div className="  p-3 mt-2 rounded rounded-3 col-md-6"  >
+                            <div class="CardSectionfour h-100" data-aos="fade-up" data-aos-delay="500">
+                                <div class="content">
+                                    <h5>Industry Expert Instructors </h5>
+                                    <p class="paragraph">
+                                        We firmly believe that one of the most effective ways to master new skills and accelerate career growth is by learning directly from seasoned industry professionals.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="feature-container p-3 mt-2 rounded rounded-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                            <div className="feature-box shadow p-3 mt-2 rounded h-100" data-aos="fade-up" data-aos-delay="700">
-                                <h5>Demand-Driven And Role-Based Training</h5>
-                                <p className="paragraph">
-                                    The dynamic tech industry constantly evolves, and our training module is designed to prepare
-                                    candidates for in-demand roles and skills in various IT projects.
-                                </p>
+
+                        <div className="  p-3 mt-2 rounded rounded-3 col-md-6"  >
+                            <div class="CardSectionfour h-100" data-aos="fade-up" data-aos-delay="500">
+                                <div class="content">
+                                    <h5>Demand-Driven And Role-Based Training</h5>
+                                    <p class="paragraph">
+                                        The dynamic tech industry constantly evolves, and our training module is designed to prepare
+                                        candidates for in-demand roles and skills in various IT projects.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="feature-container p-3  rounded rounded-3 col-md-6" data-aos="fade-up" data-aos-delay="800">
-                            <div className="feature-box shadow p-3  rounded h-100" data-aos="fade-up" data-aos-delay="900">
-                                <h5>Real-Time Scenario-Based Assignments And Case Studies</h5>
-                                <p className="paragraph">
-                                    Unlock your full learning potential by engaging in practical learning with real-world case
-                                    studies.
-                                </p>
+                        <div className="  p-3  rounded rounded-3 col-md-6" data-aos="fade-up" data-aos-delay="800">
+                            <div class="CardSectionfour h-100" data-aos="fade-up" data-aos-delay="500">
+                                <div class="content">
+                                    <h5>Real-Time Scenario-Based Assignments And Case Studies</h5>
+                                    <p className="paragraph">
+                                        Unlock your full learning potential by engaging in practical learning with real-world case
+                                        studies.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="feature-container p-3  rounded rounded-3 col-md-6" data-aos="fade-up" data-aos-delay="1000">
-                            <div className="feature-box shadow p-3  rounded h-100" data-aos="fade-up" data-aos-delay="1100">
-                                <h5>Knowledge-Centric Coaching Duration</h5>
-                                <p className="paragraph">
-                                    We take great pride in our training program and are committed to offering an exceptional learning
-                                    experience to our trainees.
-                                </p>
+
+                        <div className="  p-3  rounded rounded-3 col-md-6" data-aos="fade-up" data-aos-delay="800">
+                            <div class="CardSectionfour h-100" data-aos="fade-up" data-aos-delay="500">
+                                <div class="content">
+                                    <h5>Knowledge-Centric Coaching Duration</h5>
+                                    <p className="paragraph">
+                                        We take great pride in our training program and are committed to offering an exceptional learning
+                                        experience to our trainees.
+                                    </p>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
