@@ -5,26 +5,123 @@
 
  .rowOne:hover {
      background-color: #F4F1EA;
+
+     .icons {
+         background-color: red;
+     }
+
+     .text-service::after {
+         content: "";
+         position: absolute;
+         left: 50%;
+         bottom: -5px;
+         width: 0;
+         height: 2px;
+         background-color: red;
+         transition: all 0.4s ease-in-out;
+         transform: translateX(-50%);
+     }
+
  }
 
  .rowTwo:hover {
      background-color: #ADA0E8;
+
+     .icons {
+         background-color: rgb(0, 255, 17);
+     }
+
+     .text-service::after {
+         content: "";
+         position: absolute;
+         left: 50%;
+         bottom: -5px;
+         width: 0;
+         height: 2px;
+         background-color: rgb(0, 255, 17);
+         transition: all 0.4s ease-in-out;
+         transform: translateX(-50%);
+     }
  }
 
  .rowThree:hover {
      background-color: #E6E6E6;
+
+     .icons {
+         background-color: rgb(0, 255, 213);
+     }
+
+     .text-service::after {
+         content: "";
+         position: absolute;
+         left: 50%;
+         bottom: -5px;
+         width: 0;
+         height: 2px;
+         background-color: rgb(0, 255, 213);
+         transition: all 0.4s ease-in-out;
+         transform: translateX(-50%);
+     }
  }
 
  .rowFour:hover {
      background-color: #B6E3F8;
+
+     .icons {
+         background-color: rgb(238, 255, 0);
+     }
+
+     .text-service::after {
+         content: "";
+         position: absolute;
+         left: 50%;
+         bottom: -5px;
+         width: 0;
+         height: 2px;
+         background-color: rgb(238, 255, 0);
+         transition: all 0.4s ease-in-out;
+         transform: translateX(-50%);
+     }
  }
 
  .rowFive:hover {
      background-color: #EBD3D3;
+
+     .icons {
+         background-color: rgb(0, 255, 183);
+     }
+
+     .text-service::after {
+         content: "";
+         position: absolute;
+         left: 50%;
+         bottom: -5px;
+         width: 0;
+         height: 2px;
+         background-color: rgb(0, 255, 183);
+         transition: all 0.4s ease-in-out;
+         transform: translateX(-50%);
+     }
  }
 
  .rowSix:hover {
      background-color: #E5F1E6;
+
+     .icons {
+         background-color: rgb(255, 0, 132);
+     }
+
+     .text-service::after {
+         content: "";
+         position: absolute;
+         left: 50%;
+         bottom: -5px;
+         width: 0;
+         height: 2px;
+         background-color: rgb(255, 0, 132);
+         transition: all 0.4s ease-in-out;
+         transform: translateX(-50%);
+     }
  }
 
  .text-title {
@@ -154,7 +251,6 @@
  }
 
  .text-service {
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      font-size: 27px;
      line-height: 1.3em;
      color: #000;
@@ -165,17 +261,7 @@
      transition: color 0.4s ease-in-out;
  }
 
- .text-service::after {
-     content: "";
-     position: absolute;
-     left: 50%;
-     bottom: -5px;
-     width: 0;
-     height: 2px;
-     background-color: #FF2929;
-     transition: all 0.4s ease-in-out;
-     transform: translateX(-50%);
- }
+
 
  .service-box:hover .text-service::after {
      width: 100%;

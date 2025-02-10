@@ -195,7 +195,7 @@ const Services = () => {
                     </div>
 
                     {/* <!-- ROW 4 --> */}
-                    <div className="row rowFour align-items-center mt-4 service-box border rounded-3 " style={{ position: "sticky", top: "120px" }} >
+                    <div className="row rowFour align-items-center mt-4 service-box border rounded-3 " style={{ position: "sticky", top: "200px" }} >
                         <div className="col-lg-7 col-md-12">
                             <div className="content-text  py-5  text-center text-md-start">
                                 <div className="icons">

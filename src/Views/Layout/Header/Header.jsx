@@ -21,7 +21,7 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item" data-aos="fade-down" >
-                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="100">
+                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" to="/" data-aos="fade-down" data-aos-delay="100">
                                     <Button value={"Home"} />
                                 </NavLink>
                             </li>
@@ -31,7 +31,7 @@ const Header = () => {
                                 </NavLink>
                             </li>
                             <li className="nav-item dropdown" data-aos="fade-down" data-aos-delay="400">
-                                <NavLink className="nav-link dropdown-toggle text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos=" fade-down" data-aos-delay="300">
+                                <NavLink className="nav-link dropdown-toggle text-white text-uppercase" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos=" fade-down" data-aos-delay="300">
                                     <Button value={"Trainings"} />
                                 </NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -42,7 +42,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li className="nav-item" data-aos="fade-down" data-aos-delay="400">
-                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="400">
+                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" to="/services" data-aos="fade-down" data-aos-delay="400">
                                     <Button value={"Services"} />
                                 </NavLink>
                             </li>
