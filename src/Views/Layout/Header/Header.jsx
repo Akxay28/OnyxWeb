@@ -26,7 +26,7 @@ const Header = () => {
                                 </NavLink>
                             </li>
                             <li className="nav-item" data-aos="fade-down" data-aos-delay="200">
-                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="200">
+                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" to="/about" data-aos="fade-down" data-aos-delay="200">
                                     <Button value={"About us"} />
                                 </NavLink>
                             </li>

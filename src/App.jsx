@@ -5,6 +5,7 @@ import './App.css';
 import MainLayout from './Views/Layout/MainLayout';
 import Home from './Views/Pages/Home/Home';
 import Services from './Views/Pages/Services/Services.jsx';
+import About from './Views/Pages/About/About.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </MainLayout>
       </Router>

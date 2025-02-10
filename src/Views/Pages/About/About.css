@@ -1,0 +1,54 @@
+.custom-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-card {
+    background: linear-gradient(135deg, #131422, #3f5fa5);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+    max-width: 400px;
+    margin: auto;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 15px;
+
+}
+
+.vision-section {
+    padding: 50px 0;
+}
+
+.highlight-box {
+    background: linear-gradient(135deg, #131422, #3f5fa5);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.second-img {
+    border-radius: 20px !important;
+}
+
+.icon {
+    color: #e82d65;
+    font-size: 24px;
+}
+
+.counter {
+    font-size: 40px;
+    color: linear-gradient(135deg, #131422, #3f5fa5) !important;
+    font-weight: bold;
+    /* background: linear-gradient(135deg, #131422, #3f5fa5); */
+}
+
+.contact-us-btn {
+    color: azure;
+    background: linear-gradient(135deg, #131422, #3f5fa5);
+}

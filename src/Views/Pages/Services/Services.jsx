@@ -122,7 +122,7 @@ const Services = () => {
             <section>
                 <div className="container p-md-5 p-3 mt-5">
                     {/* <!-- ROW 1 --> */}
-                    <div className="row border rounded-3 align-items-center justify-content-center service-box rowOne " style={{ position: "sticky", top: "5%", }}>
+                    <div className="row border rounded-3 align-items-center justify-content-center service-box rowOne " style={{ position: "sticky", top: "50px", }}>
                         <div className="col-lg-7 col-md-12">
                             <div className="content-text  py-5  text-start text-md-start">
                                 <div className="icons">
