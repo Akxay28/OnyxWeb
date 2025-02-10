@@ -20,18 +20,18 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-                            <li className="nav-item" data-aos="fade-up" >
-                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-up" data-aos-delay="100">
+                            <li className="nav-item" data-aos="fade-down" >
+                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="100">
                                     <Button value={"Home"} />
                                 </NavLink>
                             </li>
-                            <li className="nav-item" data-aos="fade-up" data-aos-delay="200">
-                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-up" data-aos-delay="200">
+                            <li className="nav-item" data-aos="fade-down" data-aos-delay="200">
+                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="200">
                                     <Button value={"About us"} />
                                 </NavLink>
                             </li>
-                            <li className="nav-item dropdown" data-aos="fade-up" data-aos-delay="400">
-                                <NavLink className="nav-link dropdown-toggle text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos=" fade-up" data-aos-delay="300">
+                            <li className="nav-item dropdown" data-aos="fade-down" data-aos-delay="400">
+                                <NavLink className="nav-link dropdown-toggle text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos=" fade-down" data-aos-delay="300">
                                     <Button value={"Trainings"} />
                                 </NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -41,13 +41,13 @@ const Header = () => {
                                     <li><a className="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
-                            <li className="nav-item" data-aos="fade-up" data-aos-delay="400">
-                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-up" data-aos-delay="400">
+                            <li className="nav-item" data-aos="fade-down" data-aos-delay="400">
+                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="400">
                                     <Button value={"Services"} />
                                 </NavLink>
                             </li>
-                            <li className="nav-item dropdown" data-aos="fade-up" data-aos-delay="200">
-                                <NavLink className="nav-link dropdown-toggle text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos="fade-up" data-aos-delay="500">
+                            <li className="nav-item dropdown" data-aos="fade-down" data-aos-delay="200">
+                                <NavLink className="nav-link dropdown-toggle text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos="fade-down" data-aos-delay="500">
                                     <Button value={"Careers"} />
                                 </NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -55,8 +55,8 @@ const Header = () => {
                                     <li><a className="dropdown-item" href="#">Another action</a></li>
                                 </ul>
                             </li>
-                            <li className="nav-item" data-aos="fade-up">
-                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-up" data-aos-delay="600">
+                            <li className="nav-item" data-aos="fade-down">
+                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="600">
                                     <Button value={"Contact us"} />
                                 </NavLink>
                             </li>

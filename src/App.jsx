@@ -4,6 +4,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import './App.css';
 import MainLayout from './Views/Layout/MainLayout';
 import Home from './Views/Pages/Home/Home';
+import Services from './Views/Pages/Services/Services.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <MainLayout>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
           </Routes>
         </MainLayout>
       </Router>
