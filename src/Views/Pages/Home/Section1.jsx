@@ -104,10 +104,10 @@ const Section1 = () => {
                         </div>
                         <div className="col-lg-6 py-5  mt-5 mb-5 bg-img  ">
                             <div className="container-fluid bg-img">
-                                <div className="row">
-                                    <div data-aos="zoom-in" className="col-lg-12 py-4 text-center shadow rounded">
-                                        <img src="mainImage.jpg" width={"100%"} alt="" className="img-fluid" />
-                                        <p className='fw-bold fs-3'> Onyx IT Solutions</p>
+                                <div className="row d-flex justify-content-center align-items-center">
+                                    <div data-aos="zoom-in" className="col-lg-12 py-4 text-center shadow rounded ">
+                                        <img src="mainImage.jpg" width={"100%"} alt="" className="img-fluid mb-5" />
+                                        <p className='fw-bold fs-3 text-uppercase text-center' style={{ fontFamily: "Orbitron" }}> Onyx IT path Solutions</p>
                                     </div>
                                 </div>
                             </div>

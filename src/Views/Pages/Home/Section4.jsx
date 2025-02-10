@@ -17,7 +17,7 @@ const Section4 = () => {
                         successfully trained and placed numerous candidates in diverse industries and domains such as
                         Finance, Insurance, Healthcare, Retail/Supply Chain, E-commerce, Telecom, and more.
                     </p>
-                    <p className="mt-4 para">Here Are The Features Of Our Courses At Onyx IT Path Solutions :</p>
+                    <p className="mt-4 para fs-5" data-aos="fade-up" data-aos-delay="400">Here Are The Features Of Our Courses At Onyx IT Path Solutions :</p>
                     <div className="row" >
                         <div className="  p-3 mt-2 rounded rounded-3 col-md-6"  >
                             <div class="CardSectionfour h-100" data-aos="fade-up" data-aos-delay="500">
@@ -25,7 +25,7 @@ const Section4 = () => {
                                     <h5>Industry Expert Instructors </h5>
                                     <p class="paragraph">
                                         We firmly believe that one of the most effective ways to master new skills and accelerate career growth is by learning directly from seasoned industry professionals.
-                                    </p>
+                                    </p><br />
                                 </div>
                             </div>
                         </div>

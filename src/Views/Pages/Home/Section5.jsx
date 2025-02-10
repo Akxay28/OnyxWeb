@@ -4,8 +4,8 @@ import ContactBtn from '../Components/ContactBtn/ContactBtn'
 const Section5 = () => {
     return (
         <>
-            <div className="container">
-                <h2 className='fw-bold display-4 mb-5' data-aos="fade-up" data-aos-delay="100">Want a unique solution to meet your needs?</h2>
+            <div className="container mb-5">
+                <h2 className='fw-bold display-4 mb-5' data-aos="fade-up" data-aos-delay="100" style={{ fontFamily: "Orbitron" }}>Want a unique solution to meet your needs?</h2>
                 <div className="row py-5 border rounded bg-img2">
                     <div className="col-md-12 py-5">
                         <div className="container" data-aos="fade-up" data-aos-delay="100">
