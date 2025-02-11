@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Section5 from '../Home/Section5';
 
 const About = () => {
 
@@ -127,11 +128,11 @@ const About = () => {
             <div className="container p-3 p-md-5 offer mt-5 mb-5">
                 <div className="row">
                     <div className="col-md-3" data-aos="flip-left">
-                        <div className="counter" data-count="42">+0</div>
+                        <div className="counter" data-count="42">0</div>
                         <div className="label">Countries Covered</div>
                     </div>
                     <div className="col-md-3" data-aos="flip-right">
-                        <div className="counter" data-count="97">+0</div>
+                        <div className="counter" data-count="97">0</div>
                         <div className="label">Business Success</div>
                     </div>
                     <div className="col-md-3" data-aos="flip-left">
@@ -144,6 +145,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            <Section5 />
         </>
     );
 }
