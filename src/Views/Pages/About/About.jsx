@@ -65,7 +65,7 @@ const About = () => {
             <div className="container">
                 <div className="row gap-3">
                     <div className="about1 pb-3 mt-3 py-5 col-lg-7" data-aos="fade-right">
-                        <h2 style={{ fontFamily: "Orbitron" }}>Welcome to Onyx It Path Solutions</h2>
+                        <h2 style={{ fontFamily: "Orbitron" }} className='display-3'>Welcome to Onyx It Path Solutions</h2>
                         <p>At Onyx It Path Solutions, we are dedicated to bridging the gap between talented professionals and top-tier employers. With years of experience in the recruitment industry, our mission is to provide personalized, efficient, and effective hiring solutions for both candidates and businesses alike.
 
                             Our team of expert recruiters is passionate about matching skilled individuals with organizations that align with their goals and values. We take the time to understand the unique needs of both employers and job seekers to ensure a perfect fit every time.
@@ -100,8 +100,8 @@ const About = () => {
                 <div className="container vision-section">
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="zoom-in">
+                            <h2 className=" display-5" style={{ fontFamily: "Orbitron" }}>Experienced Recruiters Specializes In Finding The Right Executive Talent</h2>
                             <h6 className="text-danger">OUR VISION</h6>
-                            <h2 className="fw-bold" style={{ fontFamily: "Orbitron" }}>Experienced Recruiters Specializes In Finding The Right Executive Talent</h2>
                             <div className="mt-4">
                                 <div className="mb-3">
                                     <span className="iconAbout">&#x1F310;</span>
