@@ -3,8 +3,11 @@ import './About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Section5 from '../Home/Section5';
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+
+    const navigate = useNavigate();
 
     useEffect(() => {
         // Initialize AOS animations
@@ -61,12 +64,18 @@ const About = () => {
         <>
             <div className="container">
                 <div className="row gap-3">
-                    <div className="about1 pb-3 py-5 col-lg-7" data-aos="fade-right">
-                        <h2>Welcome to Consolution</h2>
-                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
+                    <div className="about1 pb-3 mt-3 py-5 col-lg-7" data-aos="fade-right">
+                        <h2 style={{ fontFamily: "Orbitron" }}>Welcome to Onyx It Path Solutions</h2>
+                        <p>At Onyx It Path Solutions, we are dedicated to bridging the gap between talented professionals and top-tier employers. With years of experience in the recruitment industry, our mission is to provide personalized, efficient, and effective hiring solutions for both candidates and businesses alike.
+
+                            Our team of expert recruiters is passionate about matching skilled individuals with organizations that align with their goals and values. We take the time to understand the unique needs of both employers and job seekers to ensure a perfect fit every time.
+
+                            Whether you are looking to expand your workforce with skilled professionals or searching for the next step in your career, [Company Name] is here to guide you through every step of the hiring process.
+
+                            We believe in fostering long-lasting relationships, building trust, and offering the highest level of service to both job seekers and hiring companies. Your success is our success.</p>
                         <button className="btn1">
-                            <div className="gradient-card">
-                                <h5 className="fw-bold">Grid Tech</h5>
+                            <div className="gradient-card mt-3">
+                                <h5 className="fw-bold">Onyx It Path Solutions</h5>
                                 <p>Elevating Your Workforce, Empowering Your Success</p>
                             </div>
                         </button>
@@ -76,8 +85,12 @@ const About = () => {
                             <img src="waist-portrait-modern-business-woman-600nw-2259403041.webp"
                                 className="img-fluid rounded" alt="Business Meeting" />
                             <h5 className="mt-3">Read Our Success Story for Inspiration</h5>
-                            <p>Far far away, behind the word mountains, far from the countries...</p>
-                            <button className="btn contact-us-btn">Contact us</button>
+                            <p>Contact us today and let’s create your success story together!</p>
+                            <button class="learn-more  border rounded-pill" data-aos="zoom-in">
+                                <span class="circle" aria-hidden="true">
+                                </span>
+                                <span class="button-text" onClick={() => navigate('/contact')}>Contact Us</span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -88,17 +101,17 @@ const About = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="zoom-in">
                             <h6 className="text-danger">OUR VISION</h6>
-                            <h2 className="fw-bold">Experienced Recruiters Specializes In Finding The Right Executive Talent</h2>
+                            <h2 className="fw-bold" style={{ fontFamily: "Orbitron" }}>Experienced Recruiters Specializes In Finding The Right Executive Talent</h2>
                             <div className="mt-4">
                                 <div className="mb-3">
                                     <span className="iconAbout">&#x1F310;</span>
                                     <strong>Building Great Network</strong>
-                                    <p>Gridtech is dedicated to establishing and nurturing a robust network...</p>
+                                    <p>Onyx It Path Solutions is dedicated to establishing and nurturing a robust network...</p>
                                 </div>
                                 <div className="mb-3">
                                     <span className="iconAbout">&#x1F6A9;</span>
                                     <strong>Forging Strategic Alliances</strong>
-                                    <p>Gridtech is constantly expanding its network by forming strategic partnerships...</p>
+                                    <p>Onyx It Path Solutions is constantly expanding its network by forming strategic partnerships...</p>
                                 </div>
                                 <div>
                                     <span className="iconAbout">&#x1F4E1;</span>
@@ -113,7 +126,7 @@ const About = () => {
                                     className="img-fluid rounded second-img" alt="Recruiter Meeting" />
                             </div>
                             <div className="highlight-box second-img">
-                                <p>Our mission at Grid Tech is to deliver unmatched expertise...</p>
+                                <p>Our mission at Onyx It Path Solutions is to deliver unmatched expertise...</p>
                                 <ul>
                                     <li>✅ Best Team Work</li>
                                     <li>✅ Great Relation & Networking</li>
@@ -126,7 +139,7 @@ const About = () => {
 
             {/* Counter Section */}
             <div className="container p-3 p-md-5 offer mt-5 mb-5">
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                     <div className="col-md-3" data-aos="flip-left">
                         <div className="counter" data-count="42">0</div>
                         <div className="label">Countries Covered</div>

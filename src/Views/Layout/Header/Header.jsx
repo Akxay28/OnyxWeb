@@ -56,7 +56,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li className="nav-item" data-aos="fade-down">
-                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="600">
+                                <NavLink className="nav-link text-white text-uppercase" to="/contact" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="600">
                                     <Button value={"Contact us"} />
                                 </NavLink>
                             </li>
