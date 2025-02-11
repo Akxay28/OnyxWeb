@@ -57,7 +57,7 @@ const Contact = () => {
                             <div class="col-lg-1">
                                 <i class="fa-solid fa-envelope display-5 "></i>
                             </div>
-                            <div class="col-lg-11 border">
+                            <div class="col-lg-11">
                                 <h6 className='capitalize display-5 ms-3'>Email</h6>
                                 <h5>your.email@example.com</h5>
                             </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                             <div class="col-lg-1">
                                 <i class="fa-solid fa-phone mt-3 fs-1"></i>
                             </div>
-                            <div class="col-lg-11 border">
+                            <div class="col-lg-11">
                                 <h6 className='display-5'>Phone</h6>
                                 <h5>+91 987 654 3210</h5>
                             </div>
@@ -75,7 +75,7 @@ const Contact = () => {
                             <div class="col-lg-1">
                                 <i class="fa-solid fa-location-dot fs-1 mt-3 "></i>
                             </div>
-                            <div class="col-lg-11 border">
+                            <div class="col-lg-11">
                                 <h6 className='display-5'>Address</h6>
                                 <h5>2464 Royal Ln. Mesa, New Jersey 45463</h5>
                             </div>
