@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Footer.css"
 
 const Footer = () => {
     return (
@@ -41,7 +42,7 @@ const Footer = () => {
                                     <div class="para text-warning fs-3 ms-5 mt-4">Follw Us At:</div>
                                     <div
                                         class="d-flex justify-content-center w-75  ">
-                                        <div class="icon mt-2 ms-0 text-light">
+                                        <div class="iconFooter mt-2 ms-0 text-light">
                                             <i class="fa-brands fa-linkedin me-3 fs-5"></i>
                                             <i class="fa-brands fa-facebook me-3 fs-5"></i>
                                             <i class="fa-brands fa-instagram me-3 fs-5"></i>

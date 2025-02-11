@@ -1,0 +1,27 @@
+/* Footer  */
+.fa-linkedin {
+    transition: all 0.2s ease-in;
+}
+
+.fa-linkedin:hover {
+    color: #ffc107 !important;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    transition: all 0.2s ease-in;
+}
+
+.fa-instagram:hover {
+    color: #ffc107 !important;
+    cursor: pointer;
+}
+
+.fa-facebook {
+    transition: all 0.2s ease-in;
+}
+
+.fa-facebook:hover {
+    color: #ffc107 !important;
+    cursor: pointer;
+}
