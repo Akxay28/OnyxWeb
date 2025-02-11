@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'; // Import Routes
+import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-router-dom'; // Import Routes
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import './App.css';
@@ -7,11 +7,25 @@ import Home from './Views/Pages/Home/Home';
 import Services from './Views/Pages/Services/Services.jsx';
 import About from './Views/Pages/About/About.jsx';
 import Contact from './Views/Pages/Contact/Contact.jsx';
+import { useEffect } from 'react';
 
 function App() {
+
+  const ScrollToTop = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location]);
+
+    return null;
+  };
+
+
   return (
     <>
       <Router>
+        <ScrollToTop />
         <MainLayout>
           <Routes>
             <Route path="/" element={<Home />} />

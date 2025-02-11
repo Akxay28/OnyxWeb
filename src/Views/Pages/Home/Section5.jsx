@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactBtn from '../Components/ContactBtn/ContactBtn'
+import { Link, NavLink } from 'react-router-dom'
 
 const Section5 = () => {
     return (
@@ -11,7 +12,7 @@ const Section5 = () => {
                         <div className="container" data-aos="fade-up" data-aos-delay="100">
                             {/* <span className='display-5'>Transforming Talent into Success</span><br /> */}
                             <span className='text-shadow display-5 capitalize'> Your Trusted Executive Search & <br /> <span className='text-warning'>Recruitment Partner.</span></span><br />
-                            <ContactBtn />
+                            <Link className='text-decoration-none' to="/contact"> <ContactBtn /></Link>
                         </div>
                     </div>
                 </div>
