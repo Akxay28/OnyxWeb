@@ -11,8 +11,8 @@ const Footer = () => {
                             <div class="row border-top border-dark">
                                 <div class="col-lg-6">
                                     <div class="mt-5">
-                                        <img src="https://gridtech.co/wp-content/uploads/2023/10/Grid-tech-Logo-white.png"
-                                            alt="" class="img-fluid" width="180px" />
+                                        <img src="OnyxLogoBGREMOVE.png"
+                                            alt="Onyx logo image" class="img-fluid" width="180px" />
                                     </div>
                                     <p class="para_two mt-4 text-light">GridTech, an IT training and placement company, was
                                         founded over 6 years ago and is incorporated in Virginia, USA. Our core mission is

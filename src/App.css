@@ -6,6 +6,7 @@
 /* SECTION ONE  */
 nav {
     font-family: "Orbitron", serif;
+    z-index: 100;
 }
 
 .bg-img {

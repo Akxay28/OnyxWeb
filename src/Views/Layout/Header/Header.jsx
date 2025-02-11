@@ -14,7 +14,9 @@ const Header = () => {
         <>
             <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "black" }}>
                 <div className="container-fluid">
-                    <NavLink className="navbar-brand text-white" href="#" data-aos="fade-down">Navbar</NavLink>
+                    <NavLink className="navbar-brand" to='/' href="#" data-aos="fade-down" data-aos-delay="100" style={{ cursor: "pointer" }} >
+                        <img width={100} src="OnyxLogoBGREMOVE.png" alt="Onyx It Path Solutions" className='img-fluid ' />
+                    </NavLink>
                     <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="  bg-white fa-solid fa-bars"></span>
                     </button>
@@ -35,10 +37,11 @@ const Header = () => {
                                     <Button value={"Trainings"} />
                                 </NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a className="dropdown-item" href="#">Business Analysis</a></li>
+                                    <li><a className="dropdown-item" href="#">Data Analysis</a></li>
+                                    <li><a className="dropdown-item" href="#">Quality Assurance</a></li>
+                                    <li><a className="dropdown-item" href="#">Scrum Master Professional</a></li>
+
                                 </ul>
                             </li>
                             <li className="nav-item" data-aos="fade-down" data-aos-delay="400">
@@ -46,7 +49,7 @@ const Header = () => {
                                     <Button value={"Services"} />
                                 </NavLink>
                             </li>
-                            <li className="nav-item dropdown" data-aos="fade-down" data-aos-delay="200">
+                            {/* <li className="nav-item dropdown" data-aos="fade-down" data-aos-delay="200">
                                 <NavLink className="nav-link dropdown-toggle text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos="fade-down" data-aos-delay="500">
                                     <Button value={"Careers"} />
                                 </NavLink>
@@ -54,7 +57,7 @@ const Header = () => {
                                     <li><a className="dropdown-item" href="#">Action</a></li>
                                     <li><a className="dropdown-item" href="#">Another action</a></li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <li className="nav-item" data-aos="fade-down">
                                 <NavLink className="nav-link text-white text-uppercase" to="/contact" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="600">
                                     <Button value={"Contact us"} />
