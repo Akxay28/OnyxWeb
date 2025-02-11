@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import Button2 from '../Components/Button2/Button2';
 import DecryptedText from '../ReactBits/DecryptedText/DecryptedText ';
+import { NavLink } from 'react-router-dom';
 
 AOS.init({
     duration: 1000, // Animation duration
@@ -99,7 +100,10 @@ const Section1 = () => {
                                 Our mission is to empower individuals and organizations through expert IT training, strategic consulting, and seamless employment placement services. We help businesses enhance their workforce and guide professionals toward meaningful career opportunities in the digital world.
                             </p>
                             <div className=" buttonContainer d-flex justify-content-center align-items-center  mt-5 ms-0 ps-0">
-                                <Button2 value={"Forward Your Resume"} className="ms-0 ps-0" />
+                                {/* <Button2 value={"Forward Your Resume"} className="ms-0 ps-0" /> */}
+                                <NavLink to="/contact">
+                                    <Button2 value={"Contact Now"} className="ms-0 ps-0" />
+                                </NavLink>
                             </div>
                         </div>
                         <div className="col-lg-6 py-5  mt-5 mb-5 bg-img  ">
