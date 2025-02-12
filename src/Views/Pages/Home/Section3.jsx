@@ -13,7 +13,7 @@ const Section3 = () => {
     return (
         <>
             <div className="container">
-                <h2 className='fw-bold display-4 mb-5 text-center ' style={{ fontFamily: "Orbitron" }} data-aos="fade-up">What separates us from other companies in the sector ?</h2>
+                <h2 className='fw-bold display-4 mb-5 text-center' data-aos="fade-up">What separates us from other companies in the sector ?</h2>
                 <div className="row">
                     <div className="col-lg-12">
                         <div class='gallery'>

@@ -13,7 +13,7 @@ const Contact = () => {
             <div class="container contact-hero-sec pt-5 py-5">
                 <div class="row">
                     <div class="col-lg-6 py-5 text-start" data-aos="fade-right">
-                        <h2 style={{ fontFamily: "Orbitron" }} className='display-1'>How Can We Help You?</h2>
+                        <h2 className='display-1 fw-bold'>How Can We Help You?</h2>
                         <h5 class="mt-5 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem molestias
                             soluta dolorem animi necessitatibus maiores impedit deleniti nihil, temporibus nisi expedita voluptatibus
                             magni, sequi quisquam!</h5>
@@ -51,7 +51,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div class="col-6 text-start d-flex flex-column ps-5 contact-info" data-aos="fade-up">
-                        <h2 style={{ fontFamily: "Orbitron" }} className='display-1'>Let’s Work Together</h2>
+                        <h2 className='display-1 fw-bold'>Let’s Work Together</h2>
 
                         <div class="row pt-5 mt-3" data-aos="fade-up">
                             <div class="col-lg-1">

@@ -29,20 +29,20 @@ const Footer = () => {
                                     <div class="para_two text-light fs-6 ms-5 mt-3 ps-4">
                                         <NavLink className="text-white d-block text-decoration-none mt-2" to="/"> <i class="fa-solid fa-greater-than me-3"></i> Home</NavLink >
                                         <NavLink className="text-white d-block text-decoration-none mt-2" to="/about"> <i class="fa-solid fa-greater-than me-3"></i> About</NavLink >
-                                        <NavLink className="text-white d-block text-decoration-none mt-2" > <i class="fa-solid fa-greater-than me-3"></i> Training</NavLink >
                                         <NavLink className="text-white d-block text-decoration-none mt-2" to="/services"> <i class="fa-solid fa-greater-than me-3" ></i> Services</NavLink >
+                                        <NavLink className="text-white d-block text-decoration-none mt-2" to="/contact" > <i class="fa-solid fa-greater-than me-3"></i> Contact</NavLink >
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mt-5">
                                     <div class="para text-warning fs-3 ms-5 mt-2">Contact</div>
-                                    <div class="para_two text-light ps-3 fs-6 ms-5 mt-2">info@OnyxItPathSolutions.co
+                                    <div class="para_two text-light ps-3 fs-6 ms-5 mt-3">info@OnyxItPathSolutions.co
                                     </div>
                                     <div class="para_two text-light ps-3 fs-6 ms-5 mt-2">+1 (571) 351-1228
                                     </div>
 
-                                    <div class="para text-warning fs-3 ms-5 mt-4">Follw Us At:</div>
+                                    <div class="para text-warning fs-3 ms-5 mt-4">Follow Us</div>
                                     <div
-                                        class="d-flex justify-content-center w-75  ">
+                                        class="d-flex justify-content-center mt-4 w-75  ">
                                         <div class="iconFooter mt-2 ms-0 text-light">
                                             <i class="fa-brands fa-linkedin me-3 fs-5"></i>
                                             <i class="fa-brands fa-facebook me-3 fs-5"></i>

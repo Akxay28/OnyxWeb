@@ -8,6 +8,7 @@ import Services from './Views/Pages/Services/Services.jsx';
 import About from './Views/Pages/About/About.jsx';
 import Contact from './Views/Pages/Contact/Contact.jsx';
 import { useEffect } from 'react';
+import ScrumMaster from './Views/Pages/ScrumMaster/ScrumMaster.jsx';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/scrumMaster" element={<ScrumMaster />} />
           </Routes>
         </MainLayout>
       </Router>

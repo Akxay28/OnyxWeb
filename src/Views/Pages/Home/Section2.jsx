@@ -6,10 +6,10 @@ const Section2 = () => {
             <div className="container mt-0 mt-lg-4 py-0 py-lg-4">
                 <div className="cursor"></div>
                 <div className="row  mt-0 mt-lg-5 py-0 py-lg-5 d-flex justify-content-center">
-                    <h2 className='fw-bold display-4 mb-5 text-dark' data-aos="fade-up" data-aos-delay="100" style={{ fontFamily: "Orbitron", }}>Building Expertise for the Future of IT</h2>
+                    <h2 className='fw-bold display-4 mb-5 text-dark' data-aos="fade-up" data-aos-delay="100" >Building Expertise for the Future of IT</h2>
                     {/* First Card */}
                     <div class="cardSectiontwo col-lg-4" data-aos="fade-up">
-                        <p class="card-title fw-bold">Equipping Future IT Professionals with Expertise in:</p>
+                        <p class="card-title fw-bold">Equipping Future IT Professionals with Expertise</p>
                         <ul class="small-desc" type="circle">
                             <li>IT Recruitment & Talent Acquisition</li>
                             <li>Executive Search for IT Leaders</li>

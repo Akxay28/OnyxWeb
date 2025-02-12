@@ -111,7 +111,7 @@ const Section1 = () => {
                                 <div className="row d-flex justify-content-center align-items-center">
                                     <div data-aos="zoom-in" className="col-lg-12 py-4 text-center cardShadow  rounded ">
                                         <img src="mainImage.jpg" width={"100%"} alt="" className="img-fluid mb-5" />
-                                        <h2 className='fw-bold fs-3 text-uppercase text-center' style={{ fontFamily: "Orbitron" }}> Onyx IT path Solutions</h2>
+                                        <h2 className='fw-bold fs-3 text-uppercase text-center' > Onyx  &nbsp;IT &nbsp; path &nbsp; Solutions</h2>
                                     </div>
                                 </div>
                             </div>

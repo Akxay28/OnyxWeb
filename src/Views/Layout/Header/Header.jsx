@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Button from '../../Pages/Components/Button/Button'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -37,10 +37,10 @@ const Header = () => {
                                     <Button value={"Trainings"} />
                                 </NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Business Analysis</a></li>
-                                    <li><a className="dropdown-item" href="#">Data Analysis</a></li>
-                                    <li><a className="dropdown-item" href="#">Quality Assurance</a></li>
-                                    <li><a className="dropdown-item" href="#">Scrum Master Professional</a></li>
+                                    <li><a className="dropdown-item mt-3 mb-3" href="#">Business Analysis</a></li>
+                                    <li><a className="dropdown-item mt-3 mb-3" href="#">Data Analysis</a></li>
+                                    <li><a className="dropdown-item mt-3 mb-3" href="#">Quality Assurance</a></li>
+                                    <Link to="/scrummaster" className='text-decoration-none '><a className="dropdown-item mt-3 mb-3" href="#">Scrum Master Professional</a></Link>
 
                                 </ul>
                             </li>

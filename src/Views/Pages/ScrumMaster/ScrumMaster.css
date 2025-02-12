@@ -1,0 +1,333 @@
+ .services-container {
+     background-color: #EDF4F2;
+     padding: 30px;
+     border-radius: 8px;
+ }
+
+ .services-title {
+     font-weight: bold;
+ }
+
+ .services-list {
+     list-style: none;
+     padding: 0;
+ }
+
+ .services-list li {
+     font-size: 16px;
+     color: #6c757d;
+     padding: 8px 0;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     /* Text and arrow start close together */
+     transition: all 0.3s ease-in-out;
+ }
+
+ .services-list li::before {
+     content: "\00BB";
+     /* Unicode for » */
+     color: #6c757d;
+     font-weight: bold;
+     margin-right: 10px;
+     /* Keeps arrow near text initially */
+     transition: transform 0.3s ease-in-out, margin-right 0.3s ease-in-out;
+ }
+
+ .services-list li::after {
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 0;
+     height: 2px;
+     background-color: #6c757d;
+     transition: width 0.3s ease-in-out;
+ }
+
+ .services-list li:hover {
+     padding-left: 10px;
+     /* Moves text slightly left */
+ }
+
+ .services-list li:hover::after {
+     width: 100%;
+     /* Expands underline */
+ }
+
+ .services-list li:hover::before {
+     transform: translateX(2700%);
+     /* Moves arrow all the way to the right */
+     /* margin-right: -1000px; */
+     /* Ensures arrow moves independently */
+ }
+
+
+
+
+ #ScrumMasterContainer {
+     background-image: url("/src/assets/agile-gov.jpg");
+     height: 504px;
+     background-position: top;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 30px;
+ }
+
+
+
+ .contact-card {
+     background-color: #111;
+     color: white;
+     padding: 30px;
+     border-radius: 10px;
+     text-align: center;
+ }
+
+ .contact-icon {
+     font-size: 50px;
+     color: #6cbf3f;
+     margin-bottom: 15px;
+ }
+
+ .contact-title {
+     font-weight: bold;
+     font-size: 22px;
+     margin-bottom: 15px;
+ }
+
+ .contact-info {
+     text-align: left;
+     font-size: 16px;
+ }
+
+ .contact-info i {
+     color: white;
+     margin-right: 10px;
+ }
+
+ .section-subtitle {
+     color: #6c757d;
+     font-size: 16px;
+ }
+
+ ul {
+     padding-left: 20px;
+ }
+
+ ul li {
+     margin-bottom: 8px;
+ }
+
+ /* downsection start */
+ /* Main Content Styles */
+ .main-content {
+     padding-top: 80px;
+     padding-bottom: 60px;
+ }
+
+ .card-img-top {
+     height: 250px;
+     object-fit: cover;
+     border-radius: 8px 8px 0 0;
+ }
+
+ .card-body {
+     background-color: #edf4f2;
+     /* White background for cards */
+     padding: 20px;
+     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+     transform: translateY(-5px);
+ }
+
+
+ .card-title {
+     font-size: 1.25em;
+     color: #1E3A8A;
+     /* Deep Blue */
+ }
+
+ /* Card Hover Effects */
+ .card:hover {
+     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+     transform: translateY(-5px);
+ }
+
+ /* Section Styles */
+ .card-scrumMaster {
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s, box-shadow 0.3s;
+ }
+
+ .card-header h3 {
+     color: #F59E0B;
+     /* Light Yellow */
+ }
+
+ .card-text {
+     font-weight: 500;
+     color: #333333;
+ }
+
+ /* Sectioned Content - Responsive */
+ @media (max-width: 768px) {
+     .navbar {
+         background-color: #1E3A8A;
+     }
+
+     .main-content {
+         padding-top: 120px;
+     }
+
+     .card-img-top {
+         height: 200px;
+     }
+ }
+
+ /* Section Header */
+ h1 {
+     font-size: 2.5em;
+     color: #1E3A8A;
+     /* Deep Blue */
+     margin-bottom: 30px;
+ }
+
+ /* Benefits & Footer */
+ .bg-light {
+     background-color: #F9FAFB !important;
+ }
+
+ footer {
+     background-color: #212529;
+     color: #fff;
+     font-size: 1em;
+     padding: 20px 0;
+ }
+
+ /* AOS Animation */
+ [data-aos="fade-up"] {
+     opacity: 0;
+     transition: opacity 0.6s ease-in-out;
+ }
+
+ [data-aos="fade-up"].aos-animate {
+     opacity: 1;
+ }
+
+ /* training-section */
+ .training-section {
+     padding: 60px 20px;
+ }
+
+
+ .section-subtitle {
+     font-size: 18px;
+     text-align: center;
+     color: #000000;
+     margin-bottom: 40px;
+ }
+
+ /* Training Modules Grid */
+ .training-modules {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 30px;
+     max-width: 1000px;
+     margin: 0 auto;
+ }
+
+ /* Glassmorphism Module Cards */
+ .module {
+     background: rgba(255, 255, 255, 0.15);
+     backdrop-filter: blur(10px);
+     border-radius: 15px;
+     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+     overflow: hidden;
+     height: auto;
+     transition: transform 0.4s ease, box-shadow 0.4s ease;
+ }
+
+ /* Hover Effects */
+ .module:hover {
+     transform: translateY(-10px) scale(1.05);
+     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+     background: rgba(255, 255, 255, 0.25);
+ }
+
+ /* Image Styling */
+ .module-image {
+     width: 100%;
+     height: 180px;
+     object-fit: cover;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+ }
+
+ /* Module Content */
+ .module-content {
+     padding: 20px;
+     background-color: #edf4f2;
+     text-align: center;
+     height: 250px;
+ }
+
+ /* Module Title */
+ .module-title {
+     font-size: 22px;
+     font-weight: 600;
+     margin-bottom: 10px;
+     color: #000000;
+ }
+
+ /* Module Text */
+ .module-text {
+     font-size: 16px;
+     color: #000000;
+     line-height: 1.6;
+ }
+
+ /* Responsive Design */
+ @media (max-width: 768px) {
+     .training-modules {
+         grid-template-columns: 1fr;
+     }
+ }
+
+ /* Benifit seciton  */
+ .benefit-card {
+     background: #edf4f2;
+     padding: 25px;
+     margin-block-end: 20px;
+     border-radius: 12px;
+     text-align: center;
+     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .benefit-card i {
+     font-size: 40px;
+     color: #007bff;
+     margin-bottom: 15px;
+ }
+
+ .benefit-card h4 {
+     font-size: 20px;
+     font-weight: bold;
+     margin-bottom: 10px;
+ }
+
+ .benefit-card p {
+     color: #6c757d;
+     font-size: 16px;
+ }
+
+ /* Hover Effect */
+ .benefit-card:hover {
+     transform: translateY(-8px);
+     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+ }
+
+ /* Benifit seciton  */
+ /* downsection end */
