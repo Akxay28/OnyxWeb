@@ -65,8 +65,8 @@ const About = () => {
             <div className="container">
                 <div className="row gap-3">
                     <div className="about1 pb-3 mt-3 py-5 col-lg-7" data-aos="fade-right">
-                        <h2 style={{ fontFamily: "Orbitron" }} className='display-3'>Welcome to Onyx It Path Solutions</h2>
-                        <p>At Onyx It Path Solutions, we are dedicated to bridging the gap between talented professionals and top-tier employers. With years of experience in the recruitment industry, our mission is to provide personalized, efficient, and effective hiring solutions for both candidates and businesses alike.
+                        <h2 className='display-3 fw-bold'>Welcome to Onyx Consultancy Services Inc</h2>
+                        <p>At Onyx Consultancy Services Inc, we are dedicated to bridging the gap between talented professionals and top-tier employers. With years of experience in the recruitment industry, our mission is to provide personalized, efficient, and effective hiring solutions for both candidates and businesses alike.
 
                             Our team of expert recruiters is passionate about matching skilled individuals with organizations that align with their goals and values. We take the time to understand the unique needs of both employers and job seekers to ensure a perfect fit every time.
 
@@ -75,7 +75,7 @@ const About = () => {
                             We believe in fostering long-lasting relationships, building trust, and offering the highest level of service to both job seekers and hiring companies. Your success is our success.</p>
                         <button className="btn1">
                             <div className="gradient-card mt-3">
-                                <h5 className="fw-bold">Onyx It Path Solutions</h5>
+                                <h5 className="fw-bold">Onyx Consultancy Services Inc</h5>
                                 <p>Elevating Your Workforce, Empowering Your Success</p>
                             </div>
                         </button>
@@ -100,18 +100,18 @@ const About = () => {
                 <div className="container vision-section">
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="zoom-in">
-                            <h2 className=" display-5" style={{ fontFamily: "Orbitron" }}>Experienced Recruiters Specializes In Finding The Right Executive Talent</h2>
+                            <h2 className=" display-5 fw-bold mb-3" >Experienced Recruiters Specializes In Finding The Right Executive Talent</h2>
                             <h6 className="text-danger">OUR VISION</h6>
                             <div className="mt-4">
                                 <div className="mb-3">
                                     <span className="iconAbout">&#x1F310;</span>
                                     <strong>Building Great Network</strong>
-                                    <p>Onyx It Path Solutions is dedicated to establishing and nurturing a robust network...</p>
+                                    <p>Onyx Consultancy Services Inc is dedicated to establishing and nurturing a robust network...</p>
                                 </div>
                                 <div className="mb-3">
                                     <span className="iconAbout">&#x1F6A9;</span>
                                     <strong>Forging Strategic Alliances</strong>
-                                    <p>Onyx It Path Solutions is constantly expanding its network by forming strategic partnerships...</p>
+                                    <p>Onyx Consultancy Services Inc is constantly expanding its network by forming strategic partnerships...</p>
                                 </div>
                                 <div>
                                     <span className="iconAbout">&#x1F4E1;</span>
@@ -126,7 +126,7 @@ const About = () => {
                                     className="img-fluid rounded second-img" alt="Recruiter Meeting" />
                             </div>
                             <div className="highlight-box second-img">
-                                <p>Our mission at Onyx It Path Solutions is to deliver unmatched expertise...</p>
+                                <p>Our mission at Onyx Consultancy Services Inc is to deliver unmatched expertise...</p>
                                 <ul>
                                     <li>✅ Best Team Work</li>
                                     <li>✅ Great Relation & Networking</li>

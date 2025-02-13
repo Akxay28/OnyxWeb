@@ -10,14 +10,14 @@ const Section4 = () => {
                     </div>
                 </div>
                 <div className="col-lg-8 content-wrapper">
-                    <h2 className="h2" data-aos="fade-up" data-aos-delay="200">Why Onyx IT Path Solutions  Is The Best For Courses And Training Programs!</h2>
+                    <h2 className="h2" data-aos="fade-up" data-aos-delay="200">Why Onyx Consultancy Services Inc Is The Best For Courses And Training Programs!</h2>
                     <p className="paragraph" data-aos="fade-up" data-aos-delay="300">
                         Our courses and training programs cater to recent graduates, IT professionals, and
                         individuals from non-IT backgrounds seeking a fulfilling career. Over the years, we have
                         successfully trained and placed numerous candidates in diverse industries and domains such as
                         Finance, Insurance, Healthcare, Retail/Supply Chain, E-commerce, Telecom, and more.
                     </p>
-                    <p className="mt-4 para fs-5" data-aos="fade-up" data-aos-delay="400">Here Are The Features Of Our Courses At Onyx IT Path Solutions :</p>
+                    <p className="mt-4 para fs-5" data-aos="fade-up" data-aos-delay="400">Here Are The Features Of Our Courses At Onyx Consultancy Services Inc :</p>
                     <div className="row" >
                         <div className="  p-3 mt-2 rounded rounded-3 col-md-6"  >
                             <div class="CardSectionfour h-100" data-aos="fade-up" data-aos-delay="500">

@@ -13,7 +13,7 @@ const Section3 = () => {
     return (
         <>
             <div className="container">
-                <h2 className='fw-bold display-4 mb-5 text-center' data-aos="fade-up">What separates us from other companies in the sector ?</h2>
+                <h2 className='fw-bold display-4 mb-5  ' data-aos="fade-up">What separates us from other companies in the sector ?</h2>
                 <div className="row">
                     <div className="col-lg-12">
                         <div class='gallery'>
@@ -27,7 +27,7 @@ const Section3 = () => {
                 <div className="row">
                     <p className='fs-3 mt-5' data-aos="fade-up" data-aos-delay="200">Our Team Main Aim Is To Provide Client-Centric Project Development and Delivery Processa &  Ensuring Seamless Collaboration and Quality Results</p>
                     <div className="col-lg-12 mt-5">
-                        <p className='fs-5'>At Onyx Tech, we are the executive search and recruitment experts, standing as a leading IT services firm with specialized expertise in Consulting, Training, Software Quality Assurance, Analytics, Agile methodologies, and Application Support. Our client-centric approach begins with thoroughly understanding each client’s unique needs, allowing us to develop tailored solutions that leverage cutting-edge tools and frameworks. With a deep-rooted experience across both on-site and off-site development, we focus on delivering high-quality, comprehensive business solutions. What sets us apart in the industry is our commitment to excellence, our agile operational structure, and our continuous drive to solve complex business challenges, ensuring seamless project execution and exceptional client satisfaction every step of the way.</p>
+                        <p className='fs-5'>At Onyx Consultancy Services Inc, we are the executive search and recruitment experts, standing as a leading IT services firm with specialized expertise in Consulting, Training, Software Quality Assurance, Analytics, Agile methodologies, and Application Support. Our client-centric approach begins with thoroughly understanding each client’s unique needs, allowing us to develop tailored solutions that leverage cutting-edge tools and frameworks. With a deep-rooted experience across both on-site and off-site development, we focus on delivering high-quality, comprehensive business solutions. What sets us apart in the industry is our commitment to excellence, our agile operational structure, and our continuous drive to solve complex business challenges, ensuring seamless project execution and exceptional client satisfaction every step of the way.</p>
                     </div>
                 </div>
             </div>

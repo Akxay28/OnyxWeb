@@ -14,9 +14,8 @@ const Contact = () => {
                 <div class="row">
                     <div class="col-lg-6 py-5 text-start" data-aos="fade-right">
                         <h2 className='display-1 fw-bold'>How Can We Help You?</h2>
-                        <h5 class="mt-5 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem molestias
-                            soluta dolorem animi necessitatibus maiores impedit deleniti nihil, temporibus nisi expedita voluptatibus
-                            magni, sequi quisquam!</h5>
+                        <h5 class="mt-5 mb-5">At Onyx Consultancyservices inc, we connect top talent with leading businesses. Specializing in recruitment across various industries, we provide tailored solutions to help companies build strong, skilled teams. Our experienced recruiters understand your unique needs and use innovative tools to find the perfect candidates. Whether you're hiring for a single position or seeking ongoing recruitment support, we’re here to simplify the process and ensure the best match for your business.
+                            Let Onyx Consultancyservices inc help you grow with the right people, every time.</h5>
                         <p>Ready to take your business to the next level? Connect with us to explore how we can collaborate
                             and achieve great things together.</p>
                         <button class="learn-more mt-4 border rounded-pill" data-aos="zoom-in" onClick={scrollToForm}>
@@ -58,8 +57,8 @@ const Contact = () => {
                                 <i class="fa-solid fa-envelope display-5 "></i>
                             </div>
                             <div class="col-lg-11">
-                                <h6 className='capitalize display-5 ms-3'>Email</h6>
-                                <h5>your.email@example.com</h5>
+                                <h6 className='capitalize display-5 ms-3 fw-bold'>Email</h6>
+                                <h5>Info@onyxconsultancyservices.co</h5>
                             </div>
                         </div>
                         <div class="row pt-5 mt-3" data-aos="fade-up" data-aos-delay="100">
@@ -67,8 +66,8 @@ const Contact = () => {
                                 <i class="fa-solid fa-phone mt-3 fs-1"></i>
                             </div>
                             <div class="col-lg-11">
-                                <h6 className='display-5'>Phone</h6>
-                                <h5>+91 987 654 3210</h5>
+                                <h6 className='display-5 fw-bold'>Phone</h6>
+                                <h5>+1(307)-312 4554 </h5>
                             </div>
                         </div>
                         <div class="row pt-5 mt-3" data-aos="fade-up" data-aos-delay="200">
@@ -76,8 +75,10 @@ const Contact = () => {
                                 <i class="fa-solid fa-location-dot fs-1 mt-3 "></i>
                             </div>
                             <div class="col-lg-11">
-                                <h6 className='display-5'>Address</h6>
-                                <h5>2464 Royal Ln. Mesa, New Jersey 45463</h5>
+                                <h6 className='display-5 fw-bold'>Address</h6>
+                                <h5>1603 Capitol Ave Ste 413A No 2932,
+                                    Cheyenne, WY 82001
+                                </h5>
                             </div>
                         </div>
                     </div>

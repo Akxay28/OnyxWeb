@@ -15,12 +15,7 @@ const Footer = () => {
                                         <img src="OnyxLogoBGREMOVE.png"
                                             alt="Onyx logo image" class="img-fluid" width="180px" />
                                     </div>
-                                    <p class="para_two mt-4 text-light">Onyx It Path Solutions, an IT training and placement company, was
-                                        founded over 6 years ago and is incorporated in Virginia, USA. Our core mission is
-                                        to provide comprehensive learning solutions and facilitate the placement of
-                                        professionals in IT projects. With a global presence through associate offices and
-                                        teams worldwide, we are dedicated to preparing candidates for promising careers in
-                                        IT projects.
+                                    <p class="para_two mt-4 text-light">Onyx Consultancy Services Inc. is an IT training and placement company founded in 2024 and incorporated in Wyoming, USA. Our mission is to provide top-tier learning solutions while helping professionals secure placements in IT projects. With a growing global presence through associate offices and teams worldwide, we are committed to preparing candidates for successful and rewarding careers in the ever-evolving IT sector.
                                     </p>
 
                                 </div>
@@ -34,17 +29,20 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mt-5">
-                                    <div class="para text-warning fs-3 ms-5 mt-2">Contact</div>
-                                    <div class="para_two text-light ps-3 fs-6 ms-5 mt-3">info@OnyxItPathSolutions.co
+                                    <div class="para text-warning fs-3  mt-2">Contact</div>
+                                    <div class="para_two text-light ps-3   mt-3">
+                                        <span class="text-warning">Email :</span> Info@onyxconsultancyservices.co
+
                                     </div>
-                                    <div class="para_two text-light ps-3 fs-6 ms-5 mt-2">+1 (571) 351-1228
+                                    <div class="para_two text-light ms-3 mt-2">
+                                        <span className='text-warning'>Phone :</span> +1(307)-312 4554
                                     </div>
 
-                                    <div class="para text-warning fs-3 ms-5 mt-4">Follow Us</div>
+                                    <div class="para text-warning fs-3  mt-4">Follow Us</div>
                                     <div
-                                        class="d-flex justify-content-center mt-4 w-75  ">
-                                        <div class="iconFooter mt-2 ms-0 text-light">
-                                            <i class="fa-brands fa-linkedin me-3 fs-5"></i>
+                                        class=" d-flex align-items-center mt-4 w-100 ms-0">
+                                        <div class="iconFooter  ms-0 text-light">
+                                            <span className='text-warning ms-3'>Contact : </span><i class="fa-brands ms-3 fa-linkedin me-3 fs-5"></i>
                                             <i class="fa-brands fa-facebook me-3 fs-5"></i>
                                             <i class="fa-brands fa-instagram me-3 fs-5"></i>
                                         </div>
