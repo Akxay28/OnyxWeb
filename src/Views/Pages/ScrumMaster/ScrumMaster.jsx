@@ -150,14 +150,14 @@ const ScrumMaster = () => {
 
                 <div className="training-modules">
                     <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="https://i.pinimg.com/originals/3d/2d/d8/3d2dd8f14fe45617eb11878ea9ba502b.png" alt="Agile and Scrum" className="module-image" />
+                        <img src="aglie.png" alt="Agile and Scrum" className="module-image" />
                         <div className="module-content">
                             <h3 className="module-title">Introduction to Agile & Scrum</h3>
                             <p className="module-text">Our Scrum Master Professional Fundamentals Training is an interactive and engaging course that covers the A to Z of Scrum methodologies and agile practices.</p>
                         </div>
                     </div>
                     <div className="module" data-aos="zoom-in" data-aos-delay="400">
-                        <img src="https://lh5.googleusercontent.com/VJVx1nrFR7sAU9PHu_B0voSn1u4sYOAHbc08H73KZdWtJOnFWG0qWu8cKz74dNBR_y0akUrenDSNmYwxPUdTLiGvydreu_ReexuU3BlQMe_fFMP6j1pNkOWudU0jIMi5QfrQ5lFucUT5CtpGILO0pgMxWevUnGr5dKZglXrFgmtyeEoM-KS2by6LG0KOQw" alt="Scrum Ceremonies" className="module-image" />
+                        <img src="scrum-ceremonies.png" alt="Scrum Ceremonies" className="module-image" />
                         <div className="module-content">
                             <h3 className="module-title">Scrum Ceremonies</h3>
                             <p className="module-text">Understand Scrum ceremonies like Sprint Planning, Daily Scrum, and Reviews. Roles and Responsibilities: Deep dive into the roles of Scrum Master, Product Owner, and Development Team.</p>

@@ -9,6 +9,7 @@ import About from './Views/Pages/About/About.jsx';
 import Contact from './Views/Pages/Contact/Contact.jsx';
 import { useEffect } from 'react';
 import ScrumMaster from './Views/Pages/ScrumMaster/ScrumMaster.jsx';
+import HealthCare from './Views/Pages/HealthCare/HealthCare.jsx';
 
 function App() {
 
@@ -30,10 +31,11 @@ function App() {
         <MainLayout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/services" element={<Services />} />
+            {/* <Route path="/services" element={<Services />} /> */}
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/scrumMaster" element={<ScrumMaster />} />
+            <Route path="/healthcare" element={<HealthCare />} />
           </Routes>
         </MainLayout>
       </Router>

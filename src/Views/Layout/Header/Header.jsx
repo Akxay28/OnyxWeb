@@ -45,9 +45,13 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li className="nav-item" data-aos="fade-down" data-aos-delay="400">
-                                <NavLink className="nav-link text-white text-uppercase" aria-current="page" to="/services" data-aos="fade-down" data-aos-delay="400">
+                                <NavLink className="nav-link text-white text-uppercase dropdown-toggle " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/services" data-aos="fade-down" data-aos-delay="400">
                                     <Button value={"Services"} />
                                 </NavLink>
+                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a className="dropdown-item mt-3 mb-3" href="#">Action</a></li>
+                                    <Link to="/healthcare" className='text-decoration-none '><a className="dropdown-item mt-3 mb-3" to="/healthcare">Healthcare</a></Link>
+                                </ul>
                             </li>
                             {/* <li className="nav-item dropdown" data-aos="fade-down" data-aos-delay="200">
                                 <NavLink className="nav-link dropdown-toggle text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos="fade-down" data-aos-delay="500">
