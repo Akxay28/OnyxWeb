@@ -7,9 +7,12 @@ import Home from './Views/Pages/Home/Home';
 import Services from './Views/Pages/Services/Services.jsx';
 import About from './Views/Pages/About/About.jsx';
 import Contact from './Views/Pages/Contact/Contact.jsx';
+import BusinessAnalysis from './Views/Pages/BusinessAnalysis/BusinessAnalysis.jsx';
 import { useEffect } from 'react';
 import ScrumMaster from './Views/Pages/ScrumMaster/ScrumMaster.jsx';
 import HealthCare from './Views/Pages/HealthCare/HealthCare.jsx';
+import DataAnalysis from './Views/Pages/DataAnalysis/DataAnalysis.jsx';
+import QualityAssurance from './Views/Pages/QualityAssurance/QualityAssurance.jsx';
 
 function App() {
 
@@ -36,6 +39,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/scrumMaster" element={<ScrumMaster />} />
             <Route path="/healthcare" element={<HealthCare />} />
+            <Route path="/businessAnalysis" element={<BusinessAnalysis />} />
+            <Route path='/dataAnalysis' element={<DataAnalysis />} />
+            <Route path='/qualityAssurance' element={<QualityAssurance />} />
           </Routes>
         </MainLayout>
       </Router>

@@ -37,9 +37,9 @@ const Header = () => {
                                     <Button value={"Trainings"} />
                                 </NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item mt-3 mb-3" href="#">Business Analysis</a></li>
-                                    <li><a className="dropdown-item mt-3 mb-3" href="#">Data Analysis</a></li>
-                                    <li><a className="dropdown-item mt-3 mb-3" href="#">Quality Assurance</a></li>
+                                    <Link to="/businessanalysis" className='text-decoration-none '><a className="dropdown-item mt-3 mb-3" href="#">Business Analysis</a></Link>
+                                    <Link to="/dataanalysis" className='text-decoration-none '><a className="dropdown-item mt-3 mb-3" href="#">Data Analysis</a></Link>
+                                    <Link to="/qualityassurance" className='text-decoration-none '><a className="dropdown-item mt-3 mb-3" href="#">Quality Assurance</a></Link>
                                     <Link to="/scrummaster" className='text-decoration-none '><a className="dropdown-item mt-3 mb-3" href="#">Scrum Master Professional</a></Link>
 
                                 </ul>
