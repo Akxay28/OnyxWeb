@@ -92,6 +92,9 @@ const HealthCare = () => {
                     <div className="row border rounded-3 align-items-center justify-content-center service-box" style={{ position: "sticky", top: "100px" }}>
                         <div className="col-lg-7 col-md-12 ">
                             <div className="content-text text-start text-md-start">
+                                <div class="icons">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
                                 <h2 className="text-service animate-heading">Per Diem</h2>
                                 <p className="text1 animate-text mt-3">
                                     Healthcare professionals offer a flexible staffing solution to address various staffing
@@ -110,6 +113,9 @@ const HealthCare = () => {
                     <div className="row border rounded-3 align-items-center justify-content-center service-box" style={{ position: "sticky", top: "150px" }}>
                         <div className="col-lg-7 col-md-12">
                             <div className="content-text text-start text-md-start">
+                                <div class="icons">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
                                 <h2 className="text-service animate-heading">Contract Medical Staff</h2>
                                 <p className="text1 animate-text mt-3">
                                     Your go-to resource for dependable contract medical staff. For both short- and long-term
