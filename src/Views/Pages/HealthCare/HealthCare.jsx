@@ -103,7 +103,7 @@ const HealthCare = () => {
                         </div>
                         <div className="col-lg-5 col-md-12 d-none d-lg-block ">
                             <div className="image-wrapper animate-image">
-                                <img src="https://www.thebalancemoney.com/thmb/UyhwuhrpQHOcKA5eOPMJrghEHno=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-per-diem-1918233_V3-bb97d57c5dfc48e3bb3c387ed0869d69.png" width="100%" className="img-fluid rounded shadow z-1" alt="Per Diem" />
+                                <img src="perdiem.png" width="100%" className="img-fluid rounded shadow z-1" alt="Per Diem" />
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ const HealthCare = () => {
                         </div>
                         <div class="col-lg-5 col-md-12 d-none d-lg-block " >
                             <div class="image-wrapper animate-image">
-                                <img src="https://img.freepik.com/free-vector/collection-health-professionals_23-2148487730.jpg" class="img-fluid   rounded shadow z-1"
+                                <img src="contactMedicalStaff.avif" class="img-fluid   rounded shadow z-1"
                                     alt="System Implementation" />
                             </div>
                             <div class="icon" onClick={() => navigate(`/contact`)} style={{ cursor: "pointer" }}>
@@ -177,7 +177,7 @@ const HealthCare = () => {
                         </div>
                         <div class="col-lg-5 col-md-12 d-none d-lg-block " >
                             <div class="image-wrapper animate-image" >
-                                <img src="https://www.loop11.com/wp-content/uploads/2022/02/The-10-Best-Online-Courses-on-Usability-and-User-Testing-1200x886.jpg"
+                                <img src="placement.jpg"
                                     class="img-fluid   rounded shadow z-1" alt="System Implementation" />
                             </div>
                             <div class="icon" onClick={() => navigate(`/contact`)} style={{ cursor: "pointer" }}>
