@@ -59,8 +59,8 @@ const DataAnalysis = () => {
                                         </span>
                                     </div>
                                     <div className="contact-info text-lg-start text-md-center text-sm-end ">
-                                        <p><i className="fas fa-home"></i> 4517 Washington Ave.<br />Manchester, Kentucky 39495</p>
-                                        <p><i className="fas fa-phone-alt"></i> (239) 555-0108</p>
+                                        <p><i className="fas fa-home"></i> 1603 Capitol Ave Ste<br /> 413A No 2932, Cheyenne, WY 82001</p>
+                                        <p><i className="fas fa-phone-alt"></i> +1(307)-312 4554</p>
                                     </div>
                                     <NavLink to="/contact" className="text-decoration-none">
                                         <ContactBtn />
@@ -143,17 +143,17 @@ const DataAnalysis = () => {
                     <div className="row mb-4 text-center">
                         <div className="col">
                             <h1>Key Learning Outcomes</h1>
-                            <p className="lead">Learn data cleaning, visualization, statistics, and insights for better
+                            <p className="Key Learning Outcomes">Learn data cleaning, visualization, statistics, and insights for better
                                 decision-making.</p>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-4 mb-4" data-aos="fade-up">
                             <div className="card shadow-sm border-0 rounded rounded-4">
-                                <img src="https://solutionvalley.com/wp-content/uploads/2019/07/data-analysis.jpg"
+                                <img src="data-analysis.jpg"
                                     className="card-img-top" alt="Image 1" />
                                 <div className="card-body rounded rounded-4">
-                                    <p className="card-text">Master essential data analysis techniques, including data cleaning,
+                                    <p className="card-text mb-4">Master essential data analysis techniques, including data cleaning,
                                         visualization, and statistical modeling, to derive actionable insights from raw data.
                                     </p>
                                 </div>
@@ -161,7 +161,7 @@ const DataAnalysis = () => {
                         </div>
                         <div className="col-md-4 mb-4" data-aos="fade-up">
                             <div className="card shadow-sm border-0 rounded rounded-4">
-                                <img src="https://images.squarespace-cdn.com/content/v1/61eae59a306ad12be1393adc/1666893270593-VB7JYFGSN1YUKLBEGLLL/2022-Norms-hero.jpg"
+                                <img src="2022-Norms-hero.jpg"
                                     className="card-img-top" alt="Image 2" />
                                 <div className="card-body rounded rounded-4">
                                     <p className="card-text">Gain proficiency in industry-standard tools like Python, R, and SQL,
@@ -172,7 +172,7 @@ const DataAnalysis = () => {
                         </div>
                         <div className="col-md-4 mb-4" data-aos="fade-up">
                             <div className="card shadow-sm border-0 rounded rounded-4">
-                                <img src="https://dfives.com/wp-content/uploads/2021/11/image-10.png" className="card-img-top"
+                                <img src="image-10.webp" className="card-img-top"
                                     alt="Image 3" />
                                 <div className="card-body rounded rounded-4">
                                     <p className="card-text">Develop critical thinking and problem-solving skills to interpret
@@ -194,7 +194,7 @@ const DataAnalysis = () => {
 
                     <div className="training-modules">
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://www.esic.edu/sites/default/files/styles/full/public/rethink/813a7ee2-big-data-marketing.jpg?itok=F0gCGNCE"
+                            <img src="813a7ee2-big-data-marketing.jpg"
                                 alt="Agile and Scrum" className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Introduction to Data Analysis</h3>
@@ -205,7 +205,7 @@ const DataAnalysis = () => {
                             </div>
                         </div>
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://lh4.googleusercontent.com/YIihF7bdygKPLHDHsmRJFI1zxU4tOnM-P02h8lwyJYOrt_xvec8qs7YiB0pxkjfoSEw-55jsF6YrLgA6ihOKDgFvKMJ5C7phhL0CNjUHBGSLmF8sIpMjDRnxzuyWM50UvDXDmXv3IiAgkoNsOg"
+                            <img src="image2.png"
                                 alt="Scrum Ceremonies" className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Data Collection and Cleaning
@@ -218,7 +218,7 @@ const DataAnalysis = () => {
                             </div>
                         </div>
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://assets.goldavenue.com/uploads/redactor2_assets/images/4656/People_looking_at_graphs_and_a_pie_chart.jpeg"
+                            <img src="People_looking_at_graphs_and_a_pie_chart.jpeg"
                                 alt="Facilitation & Coaching" className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Exploratory Data Analysis (EDA)
@@ -229,8 +229,7 @@ const DataAnalysis = () => {
                             </div>
                         </div>
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://pleshkoff.blog/wp-content/uploads/2021/02/1576159842430_tiny_file.png"
-                                alt="Continuous Improvement" className="module-image" />
+                            <img src="1576159842430_tiny_file.png" className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Statistical Analysis and Hypothesis Testing</h3>
                                 <p className="module-text">This module introduces statistical methods to analyze trends,
@@ -240,7 +239,7 @@ const DataAnalysis = () => {
                             </div>
                         </div>
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://blog.datath.com/wp-content/uploads/2021/09/Data-Dashboard-2048x1161.png"
+                            <img src="Data-Dashboard-2048x1161.png"
                                 alt="Continuous Improvement" className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Data Visualization and Reporting</h3>
@@ -251,7 +250,7 @@ const DataAnalysis = () => {
                             </div>
                         </div>
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://i.ytimg.com/vi/6FpC-SveiUQ/maxresdefault.jpg" alt="Continuous Improvement"
+                            <img src="maxresdefault.jpg" alt="Continuous Improvement"
                                 className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Machine Learning Basics for Data Analysis</h3>

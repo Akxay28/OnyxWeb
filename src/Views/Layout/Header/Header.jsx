@@ -33,7 +33,7 @@ const Header = () => {
                                 </NavLink>
                             </li>
                             <li className="nav-item dropdown" data-aos="fade-down" data-aos-delay="400">
-                                <NavLink className="nav-link dropdown-toggle text-white text-uppercase" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos=" fade-down" data-aos-delay="300">
+                                <NavLink className="nav-link dropdown-toggle text-white text-uppercase" id="navbarDropdown" role="button" data-aos=" fade-down" data-aos-delay="300">
                                     <Button value={"Trainings"} />
                                 </NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -44,24 +44,15 @@ const Header = () => {
 
                                 </ul>
                             </li>
-                            <li className="nav-item" data-aos="fade-down" data-aos-delay="400">
-                                <NavLink className="nav-link text-white text-uppercase dropdown-toggle " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/services" data-aos="fade-down" data-aos-delay="400">
+                            <li className="nav-item dropdown" data-aos="fade-down" data-aos-delay="400">
+                                <NavLink className="nav-link text-white text-uppercase dropdown-toggle " id="navbarDropdown" role="button" data-aos="fade-down" data-aos-delay="400">
                                     <Button value={"Services"} />
                                 </NavLink>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item mt-3 mb-3" href="#">Action</a></li>
+                                    <Link className='text-decoration-none'><a className="dropdown-item mt-3 mb-3" href="#">It Staffing</a></Link>
                                     <Link to="/healthcare" className='text-decoration-none '><a className="dropdown-item mt-3 mb-3" to="/healthcare">Healthcare</a></Link>
                                 </ul>
                             </li>
-                            {/* <li className="nav-item dropdown" data-aos="fade-down" data-aos-delay="200">
-                                <NavLink className="nav-link dropdown-toggle text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos="fade-down" data-aos-delay="500">
-                                    <Button value={"Careers"} />
-                                </NavLink>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                </ul>
-                            </li> */}
                             <li className="nav-item" data-aos="fade-down">
                                 <NavLink className="nav-link text-white text-uppercase" to="/contact" aria-current="page" href="#" data-aos="fade-down" data-aos-delay="600">
                                     <Button value={"Contact us"} />

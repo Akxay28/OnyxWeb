@@ -14,8 +14,8 @@ const Contact = () => {
                 <div class="row">
                     <div class="col-lg-6 py-5 text-start" data-aos="fade-right">
                         <h2 className='display-1 fw-bold'>How Can We Help You?</h2>
-                        <h5 class="mt-5 mb-5">At Onyx Consultancyservices inc, we connect top talent with leading businesses. Specializing in recruitment across various industries, we provide tailored solutions to help companies build strong, skilled teams. Our experienced recruiters understand your unique needs and use innovative tools to find the perfect candidates. Whether you're hiring for a single position or seeking ongoing recruitment support, we’re here to simplify the process and ensure the best match for your business.
-                            Let Onyx Consultancyservices inc help you grow with the right people, every time.</h5>
+                        <h5 class="mt-5 mb-5">At Onyx Consultancy services Inc, we connect top talent with leading businesses. Specializing in recruitment across various industries, we provide tailored solutions to help companies build strong, skilled teams. Our experienced recruiters understand your unique needs and use innovative tools to find the perfect candidates. Whether you're hiring for a single position or seeking ongoing recruitment support, we’re here to simplify the process and ensure the best match for your business.
+                            Let Onyx Consultancy services Inc help you grow with the right people, every time.</h5>
                         <p>Ready to take your business to the next level? Connect with us to explore how we can collaborate
                             and achieve great things together.</p>
                         <button class="learn-more mt-4 border rounded-pill" data-aos="zoom-in" onClick={scrollToForm}>

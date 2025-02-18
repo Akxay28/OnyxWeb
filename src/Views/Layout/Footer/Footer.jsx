@@ -15,7 +15,7 @@ const Footer = () => {
                                         <img src="OnyxLogoBGREMOVE.png"
                                             alt="Onyx logo image" class="img-fluid" width="180px" />
                                     </div>
-                                    <p class="para_two mt-4 text-light">Onyx Consultancy Services Inc. is an IT training and placement company founded in 2024 and incorporated in Wyoming, USA. Our mission is to provide top-tier learning solutions while helping professionals secure placements in IT projects. With a growing global presence through associate offices and teams worldwide, we are committed to preparing candidates for successful and rewarding careers in the ever-evolving IT sector.
+                                    <p class="para_two mt-4 text-light">Onyx Consultancy Services Inc  is an IT training and placement company founded in 2024 and incorporated in Wyoming, USA. Our mission is to provide top-tier learning solutions while helping professionals secure placements in IT projects. With a growing global presence through associate offices and teams worldwide, we are committed to preparing candidates for successful and rewarding careers in the ever-evolving IT sector.
                                     </p>
 
                                 </div>
@@ -24,7 +24,7 @@ const Footer = () => {
                                     <div class="para_two text-light fs-6 ms-5 mt-3 ps-4">
                                         <NavLink className="text-white d-block text-decoration-none mt-2" to="/"> <i class="fa-solid fa-greater-than me-3"></i> Home</NavLink >
                                         <NavLink className="text-white d-block text-decoration-none mt-2" to="/about"> <i class="fa-solid fa-greater-than me-3"></i> About</NavLink >
-                                        <NavLink className="text-white d-block text-decoration-none mt-2" to="/services"> <i class="fa-solid fa-greater-than me-3" ></i> Services</NavLink >
+                                        {/* <NavLink className="text-white d-block text-decoration-none mt-2" to="/services"> <i class="fa-solid fa-greater-than me-3" ></i> Services</NavLink > */}
                                         <NavLink className="text-white d-block text-decoration-none mt-2" to="/contact" > <i class="fa-solid fa-greater-than me-3"></i> Contact</NavLink >
                                     </div>
                                 </div>

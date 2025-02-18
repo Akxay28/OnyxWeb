@@ -70,7 +70,7 @@ const About = () => {
 
                             Our team of expert recruiters is passionate about matching skilled individuals with organizations that align with their goals and values. We take the time to understand the unique needs of both employers and job seekers to ensure a perfect fit every time.
 
-                            Whether you are looking to expand your workforce with skilled professionals or searching for the next step in your career, [Company Name] is here to guide you through every step of the hiring process.
+                            Whether you are looking to expand your workforce with skilled professionals or searching for the next step in your career,  Onyx Consultancy Services Inc is here to guide you through every step of the hiring process.
 
                             We believe in fostering long-lasting relationships, building trust, and offering the highest level of service to both job seekers and hiring companies. Your success is our success.</p>
                         <button className="btn1">

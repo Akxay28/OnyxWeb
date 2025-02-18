@@ -58,9 +58,9 @@ const ScrumMaster = () => {
                                             How can we help?
                                         </span>
                                     </div>
-                                    <div class="contact-info text-lg-start text-md-center text-sm-end ">
-                                        <p><i class="fas fa-home"></i> 4517 Washington Ave.<br />Manchester, Kentucky 39495</p>
-                                        <p><i class="fas fa-phone-alt"></i> (239) 555-0108</p>
+                                    <div className="contact-info text-lg-start text-md-center text-sm-end ">
+                                        <p><i className="fas fa-home"></i> 1603 Capitol Ave Ste<br /> 413A No 2932, Cheyenne, WY 82001</p>
+                                        <p><i className="fas fa-phone-alt"></i> +1(307)-312 4554</p>
                                     </div>
                                     <NavLink to="/contact" className="text-decoration-none">
                                         <ContactBtn />
@@ -151,14 +151,14 @@ const ScrumMaster = () => {
                     <div class="row mb-4 text-center">
                         <div class="col">
                             <h1 class="title">Key Learning Outcomes</h1>
-                            <p class="lead">Key QA outcomes include testing, defect identification, and ensuring high-quality
+                            <p class=" mb-3 text-dark fs-5">Key QA outcomes include testing, defect identification, and ensuring high-quality
                                 products.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4 mb-4" data-aos="fade-up">
                             <div class="card shadow-sm border-0 rounded rounded-4">
-                                <img src="https://wevolver-project-images.s3.amazonaws.com/0.nxzpbga15xhimagerie-QC-vs-QA-vs-QS.jpg"
+                                <img src="0.w0c6nmrctvimagerie-QC-vs-QA-vs-QS.jpg"
                                     class="card-img-top" alt="Image 1" />
                                 <div class="card-body rounded rounded-4">
                                     <p class="card-text">Key outcomes include a strong grasp of QA processes, ensuring quality
@@ -170,7 +170,7 @@ const ScrumMaster = () => {
                         </div>
                         <div class="col-md-4 mb-4" data-aos="fade-up">
                             <div class="card shadow-sm border-0 rounded rounded-4">
-                                <img src="https://i.pinimg.com/originals/0d/55/72/0d55722be11d45c41191be84cba48c06.png"
+                                <img src="0d55722be11d45c41191be84cba48c06.png"
                                     class="card-img-top" alt="Image 2" />
                                 <div class="card-body rounded rounded-4">
                                     <p class="card-text">Training builds skills in using testing tools and techniques to detect
@@ -181,7 +181,7 @@ const ScrumMaster = () => {
                         </div>
                         <div class="col-md-4 mb-4" data-aos="fade-up">
                             <div class="card shadow-sm border-0 rounded rounded-4">
-                                <img src="https://www.dozuki.com/hs-fs/hubfs/Imported_Blog_Media/Improve%20Quality%20Control%20in%20Manufacturing%20-%20infographic.jpeg?width=6485&name=Improve%20Quality%20Control%20in%20Manufacturing%20-%20infographic.jpeg"
+                                <img src="Improve Quality Control in Manufacturing - infographic.jpeg"
                                     class="card-img-top" alt="Image 3" />
                                 <div class="card-body rounded rounded-4">
                                     <p class="card-text">QA focuses on continuous improvement, applying feedback and optimizing
@@ -201,7 +201,7 @@ const ScrumMaster = () => {
 
                     <div class="training-modules">
                         <div class="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://static.tildacdn.info/tild3534-6337-4165-b538-623531646561/7.jpg"
+                            <img src="7.jpg"
                                 alt="Agile and Scrum" class="module-image" />
                             <div class="module-content">
                                 <h3 class="module-title">Introduction to Quality Assurance</h3>
@@ -214,7 +214,7 @@ const ScrumMaster = () => {
                             </div>
                         </div>
                         <div class="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://savvycomsoftware.com/wp-content/uploads/2024/03/how-to-find-qa-outsourcing-companies-3-1536x800.jpg"
+                            <img src="how-to-find-qa-outsourcing-companies-3-1536x800.jpg"
                                 alt="Scrum Ceremonies" class="module-image" />
                             <div class="module-content">
                                 <h3 class="module-title">QA Methodologies
@@ -229,7 +229,7 @@ const ScrumMaster = () => {
                             </div>
                         </div>
                         <div class="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://bmtriz.ru/wp-content/uploads/2020/10/10172-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg"
+                            <img src="10172-копия-копия.jpg"
                                 alt="Facilitation & Coaching" class="module-image" />
                             <div class="module-content">
                                 <h3 class="module-title">Testing Techniques
@@ -243,7 +243,7 @@ const ScrumMaster = () => {
                             </div>
                         </div>
                         <div class="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://assets-global.website-files.com/6135c6db8bcea3eb76fbf0b6/6360e18a0f64a061d2ee6b18_Automating-The-Process%20(1).jpg"
+                            <img src="6360e18a0f64a061d2ee6b18_Automating-The-Process (1).jpg"
                                 alt="Continuous Improvement" class="module-image" />
                             <div class="module-content">
                                 <h3 class="module-title">Automation Tools</h3>
@@ -257,7 +257,7 @@ const ScrumMaster = () => {
                             </div>
                         </div>
                         <div class="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://raw.githubusercontent.com/DXHeroes/knowledge-base-content/master/files/bug_reporting.png"
+                            <img src="bug_reporting.png"
                                 alt="Continuous Improvement" class="module-image" />
                             <div class="module-content">
                                 <h3 class="module-title">Bug Tracking and Reporting</h3>
@@ -269,7 +269,7 @@ const ScrumMaster = () => {
                             </div>
                         </div>
                         <div class="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://cdn.sanity.io/images/0vv8moc6/ajmc/8e557a24aed72361bc9d8a449a405e2e62ef6d82-7048x4024.jpg?fit=crop&auto=format"
+                            <img src="8e557a24aed72361bc9d8a449a405e2e62ef6d82-7048x4024.avif"
                                 alt="Continuous Improvement" class="module-image" />
                             <div class="module-content">
                                 <h3 class="module-title">Quality Standards and Best Practices</h3>

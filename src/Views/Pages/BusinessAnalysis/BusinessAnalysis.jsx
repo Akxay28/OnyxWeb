@@ -60,8 +60,8 @@ const ScrumMaster = () => {
                                         </span>
                                     </div>
                                     <div className="contact-info text-lg-start text-md-center text-sm-end ">
-                                        <p><i className="fas fa-home"></i> 4517 Washington Ave.<br />Manchester, Kentucky 39495</p>
-                                        <p><i className="fas fa-phone-alt"></i> (239) 555-0108</p>
+                                        <p><i className="fas fa-home"></i> 1603 Capitol Ave Ste<br /> 413A No 2932, Cheyenne, WY 82001</p>
+                                        <p><i className="fas fa-phone-alt"></i> +1(307)-312 4554</p>
                                     </div>
                                     <NavLink to="/contact" className="text-decoration-none">
                                         <ContactBtn />
@@ -153,7 +153,7 @@ const ScrumMaster = () => {
                     <div className="row mb-4 text-center">
                         <div className="col">
                             <h1>Key Learning Outcomes</h1>
-                            <p className="lead">Master the principles and practices of Business Analysis to drive high-performing
+                            <p className="text-dark fs-5">Master the principles and practices of Business Analysis to drive high-performing
                                 teams
                                 and deliver exceptional results.</p>
                         </div>
@@ -161,7 +161,7 @@ const ScrumMaster = () => {
                     <div className="row">
                         <div className="col-md-4 mb-4" data-aos="fade-up">
                             <div className="card shadow-sm border-0 rounded rounded-4">
-                                <img src="https://s24179.pcdn.co/wp-content/uploads/adult-back-view-data-1181345-2.jpg"
+                                <img src="adult-back-view-data-1181345-2.jpg"
                                     className="card-img-top" alt="Image 1" />
                                 <div className="card-body rounded rounded-4">
                                     <p className="card-text">Business analysis principles focus on understanding business needs,
@@ -171,7 +171,7 @@ const ScrumMaster = () => {
                         </div>
                         <div className="col-md-4 mb-4" data-aos="fade-up">
                             <div className="card shadow-sm border-0 rounded rounded-4">
-                                <img src="https://cdn.dhakapost.com/media/imgAll/BG/2021July/feat-20210709111650.jpg"
+                                <img src="feat-20210709111650.jpg"
                                     className="card-img-top" alt="Image 2" />
                                 <div className="card-body rounded rounded-4">
                                     <p className="card-text">Core practices involve data gathering, process modeling, and
@@ -183,7 +183,7 @@ const ScrumMaster = () => {
                         </div>
                         <div className="col-md-4 mb-4" data-aos="fade-up">
                             <div className="card shadow-sm border-0 rounded rounded-4">
-                                <img src="https://news.wpcarey.asu.edu/sites/default/files/leadership_1_0.jpeg"
+                                <img src="leadership_1_0.avif"
                                     className="card-img-top" alt="Image 3" />
                                 <div className="card-body rounded rounded-4">
                                     <p className="card-text">Continuous learning and adaptability enable business analysts to refine
@@ -202,7 +202,7 @@ const ScrumMaster = () => {
 
                     <div className="training-modules">
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://i2.wp.com/foureyes.io/images/main/iStock-1192241835.jpg" alt="Agile and Scrum"
+                            <img src="iStock-1192241835.jpg" alt="Agile and Scrum"
                                 className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Introduction to Business Analysis</h3>
@@ -214,7 +214,7 @@ const ScrumMaster = () => {
                             </div>
                         </div>
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://media.proglib.io/wp-uploads/2017/07/daris-soft.jpg" alt="Scrum Ceremonies"
+                            <img src="daris-soft.jpg" alt="Scrum Ceremonies"
                                 className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Requirement Engineering</h3>
@@ -225,7 +225,7 @@ const ScrumMaster = () => {
                             </div>
                         </div>
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://www.synotive.com/blog/wp-content/uploads/2017/02/software-development-life-cycle.jpg"
+                            <img src="software-development-life-cycle.jpg"
                                 alt="Facilitation & Coaching" className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Software Development Life Cycle (SDLC)</h3>
@@ -237,7 +237,7 @@ const ScrumMaster = () => {
                             </div>
                         </div>
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://cdn.stackoverflow.co/images/jo7n4k8s/production/0ef5d9b54e5f4dd3b2c0f178ed14bbff52897d02-1920x1080.jpg?rect=0,36,1920,1008&w=1200&h=630&auto=format&dpr=2"
+                            <img src="0ef5d9b54e5f4dd3b2c0f178ed14bbff52897d02-1920x1080.avif"
                                 alt="Continuous Improvement" className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Practical Application</h3>
@@ -248,7 +248,7 @@ const ScrumMaster = () => {
                             </div>
                         </div>
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://piglja.com/wp-content/uploads/2022/07/business-analysis-scaled.jpeg"
+                            <img src="business-analysis-scaled.jpeg"
                                 alt="Continuous Improvement" className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Additional Modules</h3>
@@ -258,7 +258,7 @@ const ScrumMaster = () => {
                             </div>
                         </div>
                         <div className="module" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="https://dataxus.com/assets/images/services/low/dataanalysis-min.jpeg"
+                            <img src="dataanalysis-min.jpeg"
                                 alt="Continuous Improvement" className="module-image" />
                             <div className="module-content">
                                 <h3 className="module-title">Industry-Specific Insights</h3>

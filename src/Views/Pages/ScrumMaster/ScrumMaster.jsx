@@ -56,8 +56,8 @@ const ScrumMaster = () => {
                                     <span>How can we help?</span>
                                 </div>
                                 <div className="contact-info text-lg-start text-md-center text-sm-end ">
-                                    <p><i className="fas fa-home"></i> 4517 Washington Ave.<br />Manchester, Kentucky 39495</p>
-                                    <p><i className="fas fa-phone-alt"></i> (239) 555-0108</p>
+                                    <p><i className="fas fa-home"></i> 1603 Capitol Ave Ste<br /> 413A No 2932, Cheyenne, WY 82001</p>
+                                    <p><i className="fas fa-phone-alt"></i> +1(307)-312 4554</p>
                                 </div>
                                 <NavLink to="/contact" className="text-decoration-none">
                                     <ContactBtn />
@@ -112,13 +112,13 @@ const ScrumMaster = () => {
                 <div className="row mb-4 text-center">
                     <div className="col">
                         <h1>Key Learning Outcomes</h1>
-                        <p className="lead">Learn the principles and practices of Scrum to lead agile teams effectively.</p>
+                        <p className="text-dark fs-5 mb-3">Learn the principles and practices of Scrum to lead agile teams effectively.</p>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-4 mb-4" data-aos="flip-left">
                         <div className="card-scrumMaster shadow-sm border-0 rounded rounded-4">
-                            <img src="https://community.dataminer.services/wp-content/uploads/2021/10/Scrum-Framework-1.jpg" className="card-img-top" alt="Image 1" />
+                            <img src="Scrum-Framework-1.jpg" className="card-img-top" alt="Image 1" />
                             <div className="card-body rounded rounded-4">
                                 <p className="card-text">Understand Scrum frameworks and how they enable teams to deliver products incrementally.</p>
                             </div>
@@ -126,7 +126,7 @@ const ScrumMaster = () => {
                     </div>
                     <div className="col-md-4 mb-4" data-aos="flip-left">
                         <div className="card-scrumMaster shadow-sm border-0 rounded rounded-4">
-                            <img src="https://agileindubai.com/wp-content/uploads/2019/11/ScrumValues-1536x959.png" className="card-img-top" alt="Image 2" />
+                            <img src="ScrumValues-1536x959.png" className="card-img-top" alt="Image 2" />
                             <div className="card-body rounded rounded-4">
                                 <p className="card-text">Develop skills to coach Scrum teams and ensure that Scrum processes are followed properly.</p>
                             </div>
@@ -134,7 +134,7 @@ const ScrumMaster = () => {
                     </div>
                     <div className="col-md-4 mb-4" data-aos="flip-left">
                         <div className="card-scrumMaster shadow-sm border-0 rounded rounded-4">
-                            <img src="https://cimg.cnyes.cool/prod/news/4105259/xxl/10cdcc6344bdded4ee19e6b6d3903ff1.jpg" className="card-img-top" alt="Image 3" />
+                            <img src="10cdcc6344bdded4ee19e6b6d3903ff1.jpg" className="card-img-top" alt="Image 3" />
                             <div className="card-body rounded rounded-4">
                                 <p className="card-text">Learn how to remove impediments and facilitate effective communication within Scrum teams.</p>
                             </div>
@@ -164,28 +164,28 @@ const ScrumMaster = () => {
                         </div>
                     </div>
                     <div class="module" data-aos="zoom-in" data-aos-delay="600">
-                        <img src="https://ahaslides.com/wp-content/uploads/2023/03/5A-Leadership-Development-Goals-1.jpg" alt="Facilitation & Coaching" class="module-image" />
+                        <img src="5A-Leadership-Development-Goals-1.jpg" alt="Facilitation & Coaching" class="module-image" />
                         <div class="module-content">
                             <h3 class="module-title">Facilitation & Coaching</h3>
                             <p class="module-text">Enhance leadership skills for effective Scrum facilitation and coaching, the skills needed to effectively facilitate Scrum ceremonies. Techniques to effectively facilitate Scrum events and coach agile teams.</p>
                         </div>
                     </div>
                     <div class="module" data-aos="zoom-in" data-aos-delay="800">
-                        <img src="https://naomidsouza.com/wp-content/uploads/2017/06/How-many-blog-website-views.jpg" alt="Continuous Improvement" class="module-image" />
+                        <img src="How-many-blog-website-views.jpg" alt="Continuous Improvement" class="module-image" />
                         <div class="module-content">
                             <h3 class="module-title">Continuous Improvement</h3>
                             <p class="module-text">Create a culture of continuous improvement for Agile success. Promote a culture of continuous improvement by helping your team reflect on processes and outcomes.</p>
                         </div>
                     </div>
                     <div class="module" data-aos="zoom-in" data-aos-delay="1000">
-                        <img src="https://media.licdn.com/dms/image/D4E12AQFLD_1SqhMmDw/article-cover_image-shrink_720_1280/0/1695603032145?e=2147483647&v=beta&t=fenf-vk4AkaOKs-TO_nGHXOnpLtWXR58nbr5XKWlL5k" alt="Continuous Improvement" class="module-image" />
+                        <img src="1695603032145.png" alt="Continuous Improvement" class="module-image" />
                         <div class="module-content">
                             <h3 class="module-title">Sprint Planning & Execution</h3>
                             <p class="module-text">Learn how to effectively plan and execute sprints for better team collaboration and efficiency, Learn how to foster a collaborative team environment.</p>
                         </div>
                     </div>
                     <div class="module" data-aos="zoom-in" data-aos-delay="1200">
-                        <img src="https://ecampusontario.pressbooks.pub/app/uploads/sites/207/2018/07/image2-1.png" alt="Continuous Improvement" class="module-image" />
+                        <img src="image2-1.png" alt="Continuous Improvement" class="module-image" />
                         <div class="module-content">
                             <h3 class="module-title">Agile Metrics & Reporting</h3>
                             <p class="module-text">Measure Scrum success using key agile metrics and reporting techniques for continuous growth. Enhance your capability to lead and facilitate agile teams.
