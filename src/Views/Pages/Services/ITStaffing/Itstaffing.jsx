@@ -79,19 +79,19 @@ const Itstaffing = () => {
                 <div class="container" data-aos="fade-flip">
                     <div id="counter" class="row">
                         <div class="item col-lg-4" data-aos="zoom-in">
-                            <h1 class="count counter" data-count="42">0</h1>
+                            <h1 class="count counter" data-count="78">0</h1>
                             <h3 class="text">Successful Placements</h3>
                         </div>
                         <div class="item col-lg-4" data-aos="zoom-in">
-                            <h1 class="count counter" data-count="42">0</h1>
+                            <h1 class="count counter" data-count="22">0</h1>
                             <h3 class="text">IT Projects</h3>
                         </div>
                         <div class="item col-lg-4" data-aos="zoom-in">
-                            <h1 class="count counter" data-count="42">0</h1>
+                            <h1 class="count counter" data-count="28">0</h1>
                             <h3 class="text">Happy Clients</h3>
                         </div>
                         <div class="item col-lg-4" data-aos="zoom-in">
-                            <h1 class="count counter" data-count="42">0</h1>
+                            <h1 class="count counter" data-count="3">0</h1>
                             <h3 class="text">Experience</h3>
                         </div>
                     </div>

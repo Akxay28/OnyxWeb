@@ -161,9 +161,8 @@ const ScrumMaster = () => {
                                 <img src="0.w0c6nmrctvimagerie-QC-vs-QA-vs-QS.jpg"
                                     class="card-img-top" alt="Image 1" />
                                 <div class="card-body rounded rounded-4">
-                                    <p class="card-text">Key outcomes include a strong grasp of QA processes, ensuring quality
-                                        at
-                                        every stage of production process.
+                                    <p class="card-text">Key outcomes include a strong grasp of QA processes, ensuring quality at every stage of production process and services.
+
                                     </p>
                                 </div>
                             </div>

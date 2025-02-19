@@ -141,19 +141,19 @@ const About = () => {
             <div className="container p-3 p-md-5 offer mt-5 mb-5">
                 <div className="row d-flex justify-content-center">
                     <div className="col-md-3" data-aos="flip-left">
-                        <div className="counter" data-count="42">0</div>
+                        <div className="counter" data-count="4">0</div>
                         <div className="label">Countries Covered</div>
                     </div>
                     <div className="col-md-3" data-aos="flip-right">
-                        <div className="counter" data-count="97">0</div>
+                        <div className="counter" data-count="7">0</div>
                         <div className="label">Business Success</div>
                     </div>
                     <div className="col-md-3" data-aos="flip-left">
-                        <div className="counter" data-count="2342">0</div>
+                        <div className="counter" data-count="28">0</div>
                         <div className="label">Happy Clients</div>
                     </div>
                     <div className="col-md-3" data-aos="flip-right">
-                        <div className="counter" data-count="3245">0</div>
+                        <div className="counter" data-count="10">0</div>
                         <div className="label">Business Done</div>
                     </div>
                 </div>
