@@ -31,7 +31,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "black" }}>
                 <div className="container-fluid">
                     <NavLink className="navbar-brand" to='/' href="#" data-aos="fade-down" data-aos-delay="100" style={{ cursor: "pointer" }} >
-                        <img width={100} src="OnyxLogoBGREMOVE.png" alt="Onyx It Path Solutions" className='img-fluid ' />
+                        <img width={100} src="OnyxLogoBGREMOVE.png" alt="Onyx Consultancy Services Inc" className='img-fluid ' />
                     </NavLink>
                     <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="  bg-white fa-solid fa-bars"></span>
@@ -87,7 +87,7 @@ const Header = () => {
                                             </ul>
                                         </div>
                                     </li>
-                                    <Link className='text-decoration-none'>
+                                    <Link className='text-decoration-none' to="/itStaffing">
                                         <a className="dropdown-item mt-3 mb-3" href="#">IT Staffing</a>
                                     </Link>
                                 </ul>

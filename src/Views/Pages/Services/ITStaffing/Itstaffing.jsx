@@ -1,6 +1,7 @@
 import Aos from 'aos';
 import React, { useEffect, useState } from 'react'
 import "./Itstaffing.css"
+import Section5 from '../../Home/Section5';
 
 const Itstaffing = () => {
 
@@ -68,14 +69,14 @@ const Itstaffing = () => {
             <section class="section-2" data-aos="fade-right">
                 <div class="container text-center py-5">
                     <h2 class="mb-4">IT Staffing</h2>
-                    <p class="mt-5">At Silverspace Inc., we focus on connecting great talent with top companies to help both
+                    <p class="mt-5">At Onyx Consultancy Services Inc, we focus on connecting great talent with top companies to help both
                         businesses and individuals succeed. Our IT staffing services are customized according to your various
                         needs.</p>
                 </div>
             </section>
 
-            <section class="section-3 py-5">
-                <div class="container" data-aos="fade-left">
+            <section class="section-3 py-5 mb-5">
+                <div class="container" data-aos="fade-flip">
                     <div id="counter" class="row">
                         <div class="item col-lg-4" data-aos="zoom-in">
                             <h1 class="count counter" data-count="42">0</h1>
@@ -221,7 +222,7 @@ const Itstaffing = () => {
                 </div>
             </section>
 
-
+            <Section5 />
         </>
     )
 }
