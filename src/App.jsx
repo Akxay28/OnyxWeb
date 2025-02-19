@@ -1,18 +1,25 @@
+import { useEffect } from 'react';
 import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-router-dom'; // Import Routes
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import './App.css';
 import MainLayout from './Views/Layout/MainLayout';
-import Home from './Views/Pages/Home/Home';
-import Services from './Views/Pages/Services/Services.jsx';
 import About from './Views/Pages/About/About.jsx';
-import Contact from './Views/Pages/Contact/Contact.jsx';
+import AIML from './Views/Pages/AIML.jsx';
 import BusinessAnalysis from './Views/Pages/BusinessAnalysis/BusinessAnalysis.jsx';
-import { useEffect } from 'react';
-import ScrumMaster from './Views/Pages/ScrumMaster/ScrumMaster.jsx';
-import HealthCare from './Views/Pages/HealthCare/HealthCare.jsx';
+import Cloud from './Views/Pages/Cloud.jsx';
+import Contact from './Views/Pages/Contact/Contact.jsx';
 import DataAnalysis from './Views/Pages/DataAnalysis/DataAnalysis.jsx';
+import DigitalMarketing from './Views/Pages/DigitalMarketing.jsx';
+import DigitalTransforamtion from './Views/Pages/DigitalTransforamtion.jsx';
+import Ecommerce from './Views/Pages/Ecommerce.jsx';
+import FullStack from './Views/Pages/FullStack.jsx';
+import HealthCare from './Views/Pages/HealthCare/HealthCare.jsx';
+import Home from './Views/Pages/Home/Home';
+import Microsoft from './Views/Pages/Microsoft.jsx';
+import Mobile from './Views/Pages/Mobile.jsx';
 import QualityAssurance from './Views/Pages/QualityAssurance/QualityAssurance.jsx';
+import ScrumMaster from './Views/Pages/ScrumMaster/ScrumMaster.jsx';
 
 function App() {
 
@@ -42,6 +49,17 @@ function App() {
             <Route path="/businessAnalysis" element={<BusinessAnalysis />} />
             <Route path='/dataAnalysis' element={<DataAnalysis />} />
             <Route path='/qualityAssurance' element={<QualityAssurance />} />
+            <Route path="/ecommerce" element={<Ecommerce />} />
+            <Route path="/mobile" element={<Mobile />} />
+            <Route path="/fullStack" element={<FullStack />} />
+            <Route path="/aiml" element={<AIML />} />
+            <Route path="/microsoft" element={<Microsoft />} />
+            <Route path="/cloud" element={<Cloud />} />
+            <Route
+              path="/digitalTransformation"
+              element={<DigitalTransforamtion />}
+            />
+            <Route path="/digitalMarketing" element={<DigitalMarketing />} />
           </Routes>
         </MainLayout>
       </Router>

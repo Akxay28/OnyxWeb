@@ -9,13 +9,17 @@ body {
 }
 
 /* Nav Section hover effect */
+/* Hide the dropdown initially */
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+}
+
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
 }
 
-.nav-item.dropdown .dropdown-menu {
-    display: none;
-}
+
+
 
 
 /* SECTION ONE  */
@@ -23,7 +27,7 @@ nav {
     z-index: 100;
 }
 
-.bg-img {
+.bgImg {
     /* background-image: url('assets/mainImage.jpg'); */
     /* background-size: cover; */
     /* background-color: #5b5b5b; */
@@ -329,6 +333,268 @@ nav {
     color: #7f7f7f;
     font-size: 17px;
     line-height: 26px;
+}
+
+/* At works CSS */
+
+.text-color {
+    color: lightblue !important;
+}
+
+.bg-img {
+    /* background-image: url(../src/assets/contact.jpeg); */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.555);
+    height: 80vh;
+    align-content: center;
+
+}
+
+.button {
+    line-height: 1;
+    text-decoration: none;
+    display: inline-flex;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: var(--clr);
+    color: #fff;
+    border-radius: 10rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color 0.3s;
+}
+
+.button__icon-wrapper {
+    flex-shrink: 0;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    color: var(--clr);
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.button:hover {
+    background-color: #000;
+}
+
+.button:hover .button__icon-wrapper {
+    color: #000;
+}
+
+.button__icon-svg--copy {
+    position: absolute;
+    transform: translate(-150%, 150%);
+}
+
+.button:hover .button__icon-svg:first-child {
+    transition: transform 0.3s ease-in-out;
+    transform: translate(150%, -150%);
+}
+
+.button:hover .button__icon-svg--copy {
+    transition: transform 0.3s ease-in-out 0.1s;
+    transform: translate(0);
+}
+
+/* card css  */
+/* From Uiverse.io by SouravBandyopadhyay */
+.card-universe .card-title {
+    color: #262626;
+    font-size: 18px;
+    line-height: normal;
+    /* font-weight: 700; */
+    margin-bottom: 0.5em;
+}
+
+.card-universe .small-desc {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #452c2c;
+}
+
+.go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background: linear-gradient(135deg, #6293c8, #384c6c);
+    border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+}
+
+.card-universe {
+    display: block;
+    position: relative;
+    /* max-width: 300px; */
+    height: 370px !important;
+    background-color: #f2f8f9;
+    border-radius: 10px !important;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-universe:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    /* background: linear-gradient(135deg, #364a60, #384c6c); */
+    background-color: #6293c8;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: all 0.6s ease-out;
+}
+
+.card-universe:hover:before {
+    transform: scale(58);
+    transition: all 1s ease-out;
+
+}
+
+.card-universe:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.card-universe:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+
+}
+
+.s2-bg {
+    /* background-color: rgba(217, 213, 213, 0.842) !important; */
+    background-color: black;
+}
+
+.case-1 .card-text,
+.case-2 .card-text,
+.case-3 .card-text {
+    height: 10vh;
+}
+
+/* section 3 css  */
+.case-1 {
+    background-image: url(https://cdn-ilamial.nitrocdn.com/aUPymsTnsCMGYukFMiLslTbasuqQRWOn/assets/images/optimized/rev-36b1ea2/silverspaceinc.com/wp-content/uploads/2024/08/1-1-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(2, 0, 0, 0.704) !important;
+    background-blend-mode: multiply;
+    height: 40vh;
+}
+
+.case-2 {
+    background-image: url(https://cdn-ilamial.nitrocdn.com/aUPymsTnsCMGYukFMiLslTbasuqQRWOn/assets/images/optimized/rev-36b1ea2/silverspaceinc.com/wp-content/uploads/2024/08/5-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(2, 0, 0, 0.704) !important;
+    background-blend-mode: multiply;
+    height: 40vh;
+}
+
+.case-3 {
+    background-image: url(https://cdn-ilamial.nitrocdn.com/aUPymsTnsCMGYukFMiLslTbasuqQRWOn/assets/images/optimized/rev-36b1ea2/silverspaceinc.com/wp-content/uploads/2024/08/7-scaled.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(2, 0, 0, 0.704) !important;
+    background-blend-mode: multiply;
+    height: 40vh;
+}
+
+/* section 4 css  */
+.accordion-button {
+    font-size: 1.3rem !important;
+    box-shadow: none !important;
+    /* background-color: #343a40; */
+    /* color: #ffffff; */
+    /* border: 1px solid #495057; */
+    border-radius: 12px;
+}
+
+.accordion-item {
+    margin-top: 10px;
+
+}
+
+.accordion-body {
+    font-size: 19px !important;
+    background-color: #212529;
+    color: #ffffff;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+
+.accordion-header {
+    border-bottom: 1px solid #495057;
+}
+
+.case {
+    overflow: hidden;
+}
+
+.case::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(245, 222, 179, 0.348);
+    border-radius: 100px;
+    transition: all 0.6s ease-in-out;
+    top: 0;
+    left: 0;
+    transform: translateX(-60%) translateY(-60%);
+}
+
+.case:hover::after {
+    width: 100%;
+    height: 100%;
+    transform: none !important;
+    border-radius: 0px;
+}
+
+.card-body {
+    z-index: 9000;
 }
 
 /* Media Query  */

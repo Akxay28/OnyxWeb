@@ -33,7 +33,7 @@ const Contact = () => {
                 <div class="row mt-5">
                     <div class="col-lg-6 py-5 border form-conainer" data-aos="flip-left">
                         <div className="container">
-                            <form action="">
+                            <form>
                                 <input type="text" class="form-control mb-5" placeholder="Full Name" data-aos="fade-up" />
                                 <input type="email" class="form-control mb-5" placeholder="Email" data-aos="fade-up"
                                     data-aos-delay="100" />

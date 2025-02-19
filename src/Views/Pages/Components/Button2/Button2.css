@@ -20,7 +20,7 @@
      align-items: start !important;
  }
 
- .button {
+ .buttonContact {
      position: absolute;
      width: 240px;
      height: 56px;
@@ -40,8 +40,8 @@
      height: 100%;
  }
 
- .button::before,
- .button::after,
+ .buttonContact::before,
+ .buttonContact::after,
  .button__text::before,
  .button__text::after {
      content: "";
@@ -52,13 +52,13 @@
      transition: all 0.5s ease;
  }
 
- .button::before {
+ .buttonContact::before {
      top: 0;
      left: 54px;
      width: calc(100% - 56px * 2 - 16px);
  }
 
- .button::after {
+ .buttonContact::after {
      top: 0;
      right: 54px;
      width: 8px;
@@ -107,13 +107,13 @@
 
 
 
- .button:hover::before,
- .button:hover .button__text::before {
+ .buttonContact:hover::before,
+ .buttonContact:hover .button__text::before {
      width: 8px;
  }
 
- .button:hover::after,
- .button:hover .button__text::after {
+ .buttonContact:hover::after,
+ .buttonContact:hover .button__text::after {
      width: calc(100% - 56px * 2 - 16px);
  }
 
@@ -198,32 +198,32 @@
      background: var(--back_color);
  }
 
- .button:hover .button__drow1 {
+ .buttonContact:hover .button__drow1 {
      animation: drow1 ease-in 0.06s;
      animation-fill-mode: forwards;
  }
 
- .button:hover .button__drow1::before {
+ .buttonContact:hover .button__drow1::before {
      animation: drow2 linear 0.08s 0.06s;
      animation-fill-mode: forwards;
  }
 
- .button:hover .button__drow1::after {
+ .buttonContact:hover .button__drow1::after {
      animation: drow3 linear 0.03s 0.14s;
      animation-fill-mode: forwards;
  }
 
- .button:hover .button__drow2 {
+ .buttonContact:hover .button__drow2 {
      animation: drow4 linear 0.06s 0.2s;
      animation-fill-mode: forwards;
  }
 
- .button:hover .button__drow2::before {
+ .buttonContact:hover .button__drow2::before {
      animation: drow3 linear 0.03s 0.26s;
      animation-fill-mode: forwards;
  }
 
- .button:hover .button__drow2::after {
+ .buttonContact:hover .button__drow2::after {
      animation: drow5 linear 0.06s 0.32s;
      animation-fill-mode: forwards;
  }
@@ -287,6 +287,6 @@
      }
  }
 
- .button:not(:last-child) {
+ .buttonContact:not(:last-child) {
      margin-bottom: 64px;
  }

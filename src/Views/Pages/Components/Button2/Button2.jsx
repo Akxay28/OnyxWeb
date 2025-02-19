@@ -5,7 +5,7 @@ const Button2 = ({ value }) => {
     return (
         <>
             <div class=" buttonContainer" data-aos="zoom-out-right" data-aos-delay="1200">
-                <a href="#" class="button type--C">
+                <a href="#" class="buttonContact type--C">
                     <div class="button__line"></div>
                     <div class="button__line"></div>
                     <span class="button__text">{value}</span>

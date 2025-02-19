@@ -106,8 +106,8 @@ const Section1 = () => {
                                 </NavLink>
                             </div>
                         </div>
-                        <div className="col-lg-6 py-5  mt-5 mb-5 bg-img  ">
-                            <div className="container-fluid bg-img">
+                        <div className="col-lg-6 py-5  mt-5 mb-5   ">
+                            <div className="container-fluid bgImg">
                                 <div className="row d-flex justify-content-center align-items-center">
                                     <div data-aos="zoom-in" className="col-lg-12 py-4 text-center cardShadow  rounded ">
                                         <img src="mainImage.jpg" width={"100%"} alt="" className="img-fluid mb-5" />

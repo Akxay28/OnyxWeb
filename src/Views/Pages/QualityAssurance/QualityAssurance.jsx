@@ -163,7 +163,7 @@ const ScrumMaster = () => {
                                 <div class="card-body rounded rounded-4">
                                     <p class="card-text">Key outcomes include a strong grasp of QA processes, ensuring quality
                                         at
-                                        every stage of production and reducing errors.
+                                        every stage of production process.
                                     </p>
                                 </div>
                             </div>

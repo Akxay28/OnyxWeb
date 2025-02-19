@@ -164,8 +164,7 @@ const DataAnalysis = () => {
                                 <img src="2022-Norms-hero.jpg"
                                     className="card-img-top" alt="Image 2" />
                                 <div className="card-body rounded rounded-4">
-                                    <p className="card-text">Gain proficiency in industry-standard tools like Python, R, and SQL,
-                                        enabling efficient data manipulation, trend identification, and predictive analytics.
+                                    <p className="card-text">Develop a high level of proficiency in industry-standard tools such as Python, R, and SQL, which are essential for handling complex data manipulation tasks. With these skills, you'll be able to efficiently analyze large datasets.
                                     </p>
                                 </div>
                             </div>
