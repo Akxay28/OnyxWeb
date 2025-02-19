@@ -165,7 +165,7 @@ const Itstaffing = () => {
                                     </defs>
                                 </svg>
                                 <div class="card__content">
-                                    <p class="card__title">Interview Support</p>
+                                    <p class="card__title">Interview Guidance</p>
                                     <p class="card__description">We provide strategic guidance to candidates preparing for
                                         interviews. This includes tips to showcase their skills effectively and increase their
                                         chances of landing their dream roles.</p>
