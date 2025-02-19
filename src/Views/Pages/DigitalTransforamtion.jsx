@@ -3,6 +3,7 @@ import Section1 from "../Pages/Components/firstComponent/Section1";
 import Section3 from "../Pages/Components/firstComponent/Section3";
 import Section4 from "../Pages/Components/firstComponent/Section4";
 import CardPages from "../Pages/Components/Card/CardPages";
+import Section5 from "./Home/Section5";
 
 const DigitalTransforamtion = () => {
   return (
@@ -119,6 +120,9 @@ support your transformation journey.`}
 transformation services can benefit your organization.`}
         />
       </section>
+
+
+      <Section5 />
     </>
   );
 };

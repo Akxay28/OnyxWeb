@@ -20,6 +20,7 @@ import Microsoft from './Views/Pages/Microsoft.jsx';
 import Mobile from './Views/Pages/Mobile.jsx';
 import QualityAssurance from './Views/Pages/QualityAssurance/QualityAssurance.jsx';
 import ScrumMaster from './Views/Pages/ScrumMaster/ScrumMaster.jsx';
+import Itstaffing from './Views/Pages/Services/ITStaffing/Itstaffing.jsx';
 
 function App() {
 
@@ -60,6 +61,7 @@ function App() {
               element={<DigitalTransforamtion />}
             />
             <Route path="/digitalMarketing" element={<DigitalMarketing />} />
+            <Route path="/itStaffing" element={<Itstaffing />} />
           </Routes>
         </MainLayout>
       </Router>

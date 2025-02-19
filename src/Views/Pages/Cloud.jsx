@@ -3,6 +3,7 @@ import Section1 from "../Pages/Components/firstComponent/Section1";
 import Section3 from "../Pages/Components/firstComponent/Section3";
 import Section4 from "../Pages/Components/firstComponent/Section4";
 import CardPages from "../Pages/Components/Card/CardPages";
+import Section5 from "./Home/Section5";
 
 const Cloud = () => {
   return (
@@ -92,6 +93,9 @@ Performance Optimization: Regular evaluation and modification to keep performanc
           q7a={`We help enable your business to scale by providing services in architecture design that are fit for purpose, keeping pace with change. We will monitor and modify the environment to ensure proper scalability and performance improvements.`}
         />
       </section>
+
+
+      <Section5 />
     </>
   );
 };

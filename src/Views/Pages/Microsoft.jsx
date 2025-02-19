@@ -3,6 +3,7 @@ import Section1 from "../Pages/Components/firstComponent/Section1";
 import Section3 from "../Pages/Components/firstComponent/Section3";
 import Section4 from "../Pages/Components/firstComponent/Section4";
 import CardPages from "../Pages/Components/Card/CardPages";
+import Section5 from "./Home/Section5";
 
 const Microsoft = () => {
   return (
@@ -102,6 +103,9 @@ const Microsoft = () => {
           q7a={`The size of the project dictates this. Milestones, deliverables would be defined closely with you so there is transparency in how the entire development process works.`}
         />
       </section>
+
+
+      <Section5 />
     </>
   );
 };

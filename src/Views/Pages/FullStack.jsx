@@ -3,6 +3,7 @@ import Section1 from "../Pages/Components/firstComponent/Section1";
 import Section3 from "../Pages/Components/firstComponent/Section3";
 import Section4 from "../Pages/Components/firstComponent/Section4";
 import CardPages from "../Pages/Components/Card/CardPages";
+import Section5 from "./Home/Section5";
 
 const FullStack = () => {
   return (
@@ -116,7 +117,10 @@ purpose of safeguarding sensitive information.`}
           q7a={`You may reach us through the contact form on this website, via email, or by phone. Our team is on standby to respond to any queries you may have and to ensure that your needs are met regarding your project.`}
         />
       </section>
+      <Section5 />
     </>
+
+
   );
 };
 

@@ -3,6 +3,7 @@ import Section1 from "../Pages/Components/firstComponent/Section1";
 import Section3 from "../Pages/Components/firstComponent/Section3";
 import Section4 from "../Pages/Components/firstComponent/Section4";
 import CardPages from "../Pages/Components/Card/CardPages";
+import Section5 from "./Home/Section5";
 
 const AIML = () => {
   return (
@@ -95,6 +96,9 @@ AI personalization systems to enhance the experience and satisfaction of user en
           q7a={`We work with a diverse range of companies, from startups to large enterprises, across various industries looking for IT talent.`}
         />
       </section>
+
+
+      <Section5 />
     </>
   );
 };
