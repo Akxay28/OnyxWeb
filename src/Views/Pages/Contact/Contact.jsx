@@ -1,11 +1,28 @@
 import React from 'react';
 import "./Contact.css";
 import Section5 from '../Home/Section5';
+import { useForm } from 'react-hook-form';
+import axios from 'axios';
+
 
 const Contact = () => {
+    const { register, handleSubmit } = useForm();
+
     const scrollToForm = () => {
         const contactForm = document.getElementById('contact-form');
         contactForm.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    const onSubmit = (data) => {
+        console.log(data);
+        axios
+            .post("http://localhost:4000/", data)
+            .then((res) => {
+                console.log(res, "response in try catch");
+            })
+            .catch((err) => {
+                console.log(err, "error in try catch");
+            });
     };
 
     return (
@@ -33,14 +50,16 @@ const Contact = () => {
                 <div class="row mt-5">
                     <div class="col-lg-6 py-5 border form-conainer" data-aos="flip-left">
                         <div className="container">
-                            <form>
-                                <input type="text" class="form-control mb-5" placeholder="Full Name" data-aos="fade-up" />
+                            <form onSubmit={handleSubmit(onSubmit)}>
+                                <input type="text" className='form-control  mb-5' placeholder="Full Name" data-aos="fade-up"
+                                    {...register('name', { required: true })}
+                                />
                                 <input type="email" class="form-control mb-5" placeholder="Email" data-aos="fade-up"
-                                    data-aos-delay="100" />
-                                <input type="number" class="form-control mb-5" placeholder="Phone Number" data-aos="fade-up"
+                                    data-aos-delay="100"  {...register('email', { required: true })} />
+                                <input type="number" class="form-control mb-5" placeholder="Phone Number" data-aos="fade-up"  {...register('contact', { required: true })}
                                     data-aos-delay="200" />
                                 <textarea name="" cols="30" rows="6" class="form-control" placeholder="Message"
-                                    data-aos="fade-up" data-aos-delay="300"></textarea>
+                                    data-aos="fade-up" data-aos-delay="300"  {...register('message', { required: true })}></textarea>
                                 {/* uiverse */}
                                 <button class="learn-more border rounded rounded-pill mt-5 ms-2">
                                     <span class="circle " aria-hidden="true"></span>
