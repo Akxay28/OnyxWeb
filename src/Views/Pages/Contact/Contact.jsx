@@ -3,10 +3,11 @@ import "./Contact.css";
 import Section5 from '../Home/Section5';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
+import toast, { Toaster } from 'react-hot-toast';
 
 
 const Contact = () => {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit, reset } = useForm();
 
     const scrollToForm = () => {
         const contactForm = document.getElementById('contact-form');
@@ -16,17 +17,24 @@ const Contact = () => {
     const onSubmit = (data) => {
         console.log(data);
         axios
-            .post("http://localhost:4000/", data)
+            .post("https://onyxbackend.onrender.com/", data)
             .then((res) => {
                 console.log(res, "response in try catch");
+                reset();
+                toast.success('Thank you for Contacting Us!')
             })
             .catch((err) => {
                 console.log(err, "error in try catch");
+                toast.error('Invalid Email or Number!')
             });
     };
 
     return (
         <>
+            <Toaster
+                position="top-center"
+                reverseOrder={false}
+            />
             <div class="container contact-hero-sec pt-5 py-5">
                 <div class="row">
                     <div class="col-lg-6 py-5 text-start" data-aos="fade-right">
