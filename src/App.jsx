@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-router-dom'; // Import Routes
+import { Route, HashRouter as Router, Routes, useLocation } from 'react-router-dom'; // Use HashRouter instead of BrowserRouter
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import './App.css';
@@ -23,7 +23,6 @@ import ScrumMaster from './Views/Pages/ScrumMaster/ScrumMaster.jsx';
 import Itstaffing from './Views/Pages/Services/ITStaffing/Itstaffing.jsx';
 
 function App() {
-
   const ScrollToTop = () => {
     const location = useLocation();
 
@@ -34,7 +33,6 @@ function App() {
     return null;
   };
 
-
   return (
     <>
       <Router>
@@ -42,7 +40,6 @@ function App() {
         <MainLayout>
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/services" element={<Services />} /> */}
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/scrumMaster" element={<ScrumMaster />} />
@@ -56,10 +53,7 @@ function App() {
             <Route path="/aiml" element={<AIML />} />
             <Route path="/microsoft" element={<Microsoft />} />
             <Route path="/cloud" element={<Cloud />} />
-            <Route
-              path="/digitalTransformation"
-              element={<DigitalTransforamtion />}
-            />
+            <Route path="/digitalTransformation" element={<DigitalTransforamtion />} />
             <Route path="/digitalMarketing" element={<DigitalMarketing />} />
             <Route path="/itStaffing" element={<Itstaffing />} />
           </Routes>
@@ -69,4 +63,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
