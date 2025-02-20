@@ -57,7 +57,7 @@ const Microsoft = () => {
             <CardPages
               title={"Dynamics 365"}
               cardPara={`You customize it, and implement Dynamics 365 solutions which involve CRM as well as ERP to streamline business processes for customer engagement.`}
-              img={"Dynamics-365"}
+              img={"Dynamics-365.svg"}
             />
             <CardPages
               title={"Application Modernization"}

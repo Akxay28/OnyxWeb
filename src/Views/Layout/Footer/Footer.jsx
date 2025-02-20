@@ -37,6 +37,15 @@ const Footer = () => {
                                     <div class="para_two text-light ms-3 mt-2">
                                         <span className='text-warning'>Phone :</span> +1(307)-312 4554
                                     </div>
+                                    <div>
+
+                                        <div className='para_two text-light ms-3 mt-2'>
+                                            <span className='text-warning'>Address:</span>
+                                            1603 Capitol Ave Ste 413A No 2932,
+                                            Cheyenne, WY 82001
+
+                                        </div>
+                                    </div>
 
                                     <div class="para text-warning fs-3  mt-4">Follow Us</div>
                                     <div
@@ -54,8 +63,8 @@ const Footer = () => {
                     <div class="container">
                         <div class="row border-bottom border-dark mt-4"></div>
                     </div>
-                </section>
-            </div>
+                </section >
+            </div >
         </>
     )
 }
